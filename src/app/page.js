@@ -12,7 +12,7 @@ import Autoplay from 'embla-carousel-autoplay';
 
 export default function Home() {
 
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])
+  const [emblaRef] = useEmblaCarousel({loop:true}, [Autoplay({stopOnInteraction:false,delay:3000})])
 
   
   return (

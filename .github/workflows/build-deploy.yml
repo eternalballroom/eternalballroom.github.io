@@ -24,7 +24,10 @@ jobs:
     
     - name: Install NPM packages
       run: npm ci
-    
+
+    - name: install next
+      run: npm install next
+
     - name: Build project
       run: next build
 

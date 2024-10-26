@@ -22,8 +22,8 @@ export default function Home() {
         
         <div className={styles.embla} ref={emblaRef}>
           <div className={styles.embla__container}>
-            <div className={styles.embla__slide}><img src="https://raw.githubusercontent.com/eternalballroom/portfolio/refs/heads/main/public/images/testimg.png"></img></div>
-            <div className={styles.embla__slide}><img src="https://raw.githubusercontent.com/eternalballroom/portfolio/refs/heads/main/public/images/omori.gif"></img></div>
+            <div className={styles.embla__slide}><img src="/images/testimg.png"></img></div>
+            <div className={styles.embla__slide}><img src="images/omori.gif"></img></div>
 
             <div className={styles.embla__slide}><iframe src="https://www.youtube.com/embed/zxk0r2c6vyE?autoplay=1" allow="autoplay"></iframe></div>
           </div>
@@ -42,9 +42,9 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get fiwck by editing <code>src/app/page.js</code>.
+            Site <code>dddddddd0</code>.
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>#1</li>
         </ol>
 
         <div className={styles.ctas}>

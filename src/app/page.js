@@ -1,10 +1,37 @@
+'use client'
+
 import Image from "next/image";
 import styles from "./page.module.css";
 
+import React from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
+
+
+//import Image from ""
+
 export default function Home() {
+
+  const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])
+
+  
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+
+        
+        <div className={styles.embla} ref={emblaRef}>
+          <div className={styles.embla__container}>
+            <div className={styles.embla__slide}><img src="/images/testimg.png"></img></div>
+            <div className={styles.embla__slide}><img src="/images/omori.gif"></img></div>
+
+            <div className={styles.embla__slide}>d</div>
+          </div>
+        </div>
+
+
+
+        
         <Image
           className={styles.logo}
           src="/next.svg"

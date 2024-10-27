@@ -10,9 +10,10 @@
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
   justify-items: center;
-  min-height: 100svh;
-  padding: 160px; 
-  gap: 64px;
+  padding-left:210px;
+  padding-right:210px;
+  padding-top: 110px;
+  gap: 0px;
   font-family: var(--font-geist-sans);
   
 }
@@ -210,8 +211,7 @@ a.secondary {
   
   max-width: 600px;
   flex: 0 0 var(--slide-size);
-  min-width: 100px;
-  padding-right: 0;
+  min-width: 0px;
 
 }
 

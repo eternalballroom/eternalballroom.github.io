@@ -28,6 +28,8 @@ export default function Home() {
 
         <Slideshow images={ imagesMain1 } />
 
+        
+
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -80,8 +82,8 @@ export default function Home() {
           </a>
         </div>
 
-
-
+        <hr></hr>
+        <div></div>
 
       </main>
       <Footer />

@@ -51,6 +51,8 @@ export default function Footer() {
           />
           Go to nextjs.org →
         </a>
+
+        
       </footer>
   );
 }

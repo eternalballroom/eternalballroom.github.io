@@ -5,14 +5,14 @@
 
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
-
   display: grid;
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
   justify-items: center;
   padding-left:210px;
   padding-right:210px;
-  padding-top: 110px;
+  padding-top: 50px;
+  padding-bottom:50px;
   gap: 0px;
   font-family: var(--font-geist-sans);
   
@@ -190,7 +190,7 @@ a.secondary {
 }
 
 .main {
-
+  min-width: 100%;
   --slide-height: 8rem;
   --slide-spacing: 25px;
   --slide-size: 60%
@@ -211,7 +211,7 @@ a.secondary {
   
   max-width: 600px;
   flex: 0 0 var(--slide-size);
-  min-width: 0px;
+  min-width: 50%;
 
 }
 

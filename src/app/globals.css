@@ -33,3 +33,8 @@ a {
     color-scheme: dark;
   }
 }
+
+img,video {
+  max-width: 50%;
+  height: auto
+}

@@ -10,6 +10,7 @@ import Autoplay from 'embla-carousel-autoplay';
 //components
 import Footer from "./components/footer";
 import Slideshow from "./components/slideshow";
+import Header from "./components/header";
 
 //f
 export default function Home() {
@@ -21,14 +22,20 @@ export default function Home() {
     { path: "/images/omori.gif", url: "/two" },
   ]
 
+  const imagesMain2 = [
+    { path: "/images/main_pixelnb.png", url: "/two" },
+    { path: "/images/main_pixelnb.png", url: "/break" },
+    { path: "/images/main_pixel.png", url: "/two" },
+  ]
+
 
   return (
     <div className={styles.page}>
+      
       <main className={styles.main}>
-
-        <Slideshow images={ imagesMain1 } />
-
-        
+        <Header />
+        <Slideshow images={ imagesMain2 } />
+        <div className={`${styles.separator} ${styles.font_semibold}`}>ANNOUNCEMENTS</div>
 
         <Image
           className={styles.logo}

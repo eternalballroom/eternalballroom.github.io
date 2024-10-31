@@ -1,5 +1,7 @@
 :root {
-  --background: #6769bb;
+  /* --background: #6769bb;
+  --foreground: #ededed; */
+  --background: #0f0f0f;
   --foreground: #ededed;
 }
 
@@ -34,7 +36,7 @@ a {
   }
 }
 
-img,video {
-  max-width: 50%;
+img {
+  max-width: 100%;
   height: auto
 }

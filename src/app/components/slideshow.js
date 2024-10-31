@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 export default function Slideshow({ images }) {
 
-    const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay({ stopOnInteraction: false, delay: 3000 })])
+    const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay({ stopOnInteraction: false, delay: 3333 })])
     
     return (
         <div className={styles.embla} ref={emblaRef}>
@@ -19,7 +19,7 @@ export default function Slideshow({ images }) {
                 {
                     images.map((img,i) =>
                         <div className={`basis-full md:basis-[55%] ${styles.embla__slide} ${styles.transform}` } key={img.path+i}>
-                            <center><Link href={img.url}><img src={img.path} /></Link></center>
+                            <Link href={img.url}><img src={img.path} /></Link>
                         </div>
                     )
                 }

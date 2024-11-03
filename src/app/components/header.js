@@ -1,7 +1,7 @@
-
 import styles from "../page.module.css";
 import React from 'react';
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function Header() {
 
@@ -16,13 +16,13 @@ export default function Header() {
             width={35}
             height={35}
           />
-      <a
+      <Link
           href="/"
           rel="noopener noreferrer"
           className={`${styles.changeFontBold} ${styles.colorchange}`}
         >
           home
-        </a>
+        </Link>
         <a
           href="/work"
           rel="noopener noreferrer"

@@ -7,10 +7,7 @@ export default function Footer() {
   return (
 
     <footer className={styles.footer}>
-      <a
-        href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
+      <div
         className={styles.font_smallgray}
         
       >
@@ -22,7 +19,7 @@ export default function Footer() {
           height={16}
         /> */}
         ⓧ 2024 caretaker
-      </a>
+      </div>
     </footer>
   );
 }

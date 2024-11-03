@@ -10,7 +10,9 @@ import Autoplay from 'embla-carousel-autoplay';
 //components
 import Footer from "../components/footer";
 import Slideshow from "../components/slideshow";
-import HeaderWork from "./headerWork";
+import Header from "../components/header";
+//cursor
+import Cursor from "../components/cursor";
 
 //f
 export default function Work() {
@@ -31,7 +33,8 @@ export default function Work() {
 
   return (
     <div>
-      <HeaderWork />
+      <Cursor />
+      <Header bold="work"/>
       <link rel="icon" href="/images/chand.png" />
       <title>The Eternal Ballroom</title>
       <div className={styles.page}>

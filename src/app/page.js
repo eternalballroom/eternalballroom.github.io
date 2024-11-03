@@ -11,6 +11,8 @@ import Autoplay from 'embla-carousel-autoplay';
 import Footer from "./components/footer";
 import Slideshow from "./components/slideshow";
 import Header from "./components/header";
+//cursor
+import Cursor from "./components/cursor";
 
 //f
 export default function Home() {
@@ -31,10 +33,12 @@ export default function Home() {
 
   return (
     <div>
-      <Header />
+      <Cursor />
+      <Header bold="home" />
       <link rel="icon" href="/images/chand.png" />
       <title>The Eternal Ballroom</title>
       <div className={styles.page}>
+
         <main className={styles.main}>
 
           <Slideshow images={imagesMain2} />

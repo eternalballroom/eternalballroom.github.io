@@ -19,14 +19,14 @@ export default function Header() {
       <a
           href="/"
           rel="noopener noreferrer"
-          className={`${styles.changeFontBold} ${styles.colorchange}`}
+          className={styles.colorchange}
         >
           home
         </a>
         <a
           href="/work"
           rel="noopener noreferrer"
-          className={styles.colorchange}
+          className={`${styles.changeFontBold} ${styles.colorchange}`}
         >
           work
         </a>

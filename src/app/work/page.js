@@ -1,19 +1,19 @@
 'use client'
 
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 import React from 'react';
 import Link from 'next/link';
 //embla
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 //components
-import Footer from "./components/footer";
-import Slideshow from "./components/slideshow";
-import Header from "./components/header";
+import Footer from "../components/footer";
+import Slideshow from "../components/slideshow";
+import HeaderWork from "./headerWork";
 
 //f
-export default function Home() {
+export default function Work() {
 
   const imagesMain1 = [
     { path: "/images/testimg.png", url: "/two" },
@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <div>
-      <Header />
+      <HeaderWork />
       <link rel="icon" href="/images/chand.png" />
       <title>The Eternal Ballroom</title>
       <div className={styles.page}>
@@ -50,37 +50,37 @@ export default function Home() {
           />
           <ol>
             <li>
-              Site <code>HOME PAGE</code>.
+              Site <code>WORK PAGE</code>.
             </li>
             <li>#1</li>
           </ol>
           <ol>
             <li>
-              Site <code>HOME PAGE</code>.
+              Site <code>WORK PAGE</code>.
             </li>
             <li>#1</li>
           </ol>
           <ol>
             <li>
-              Site <code>HOME PAGE</code>.
+              Site <code>WORK PAGE</code>.
             </li>
             <li>#1</li>
           </ol>
           <ol>
             <li>
-              Site <code>HOME PAGE</code>.
+              Site <code>WORK PAGE</code>.
             </li>
             <li>#1</li>
           </ol>
           <ol>
             <li>
-              Site <code>HOME PAGE</code>.
+              Site <code>WORK PAGE</code>.
             </li>
             <li>#1</li>
           </ol>
           <ol>
             <li>
-              Site <code>HOME PAGE</code>.
+              Site <code>WORK PAGE</code>.
             </li>
             <li>#1</li>
           </ol>

@@ -1,0 +1,61 @@
+/*
+ HEADER BELOW #615CA0
+*/
+
+.headera {
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #0f0f0f;
+  
+  height: 70px;
+  padding-bottom: 0px;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 0px;
+  position: fixed;
+  z-index: 3;
+}
+
+.site-header.on-scroll {
+  background-color: #AD715C;
+}
+
+.site-header.on-scroll .logo,
+.site-header.on-scroll .logo a {
+  color: #fa2a2a;
+}
+
+.site-header.on-scroll .pf-nav-social svg {
+  fill: #FFFFFF;
+  opacity: 1;
+}
+
+.site-header.on-scroll nav .page-title a {
+  color: #FFFFFF;
+}
+
+.site-header.on-scroll nav .gallery-title a {
+  color: #FFFFFF;
+}
+
+.site-header.on-scroll nav .project-title a {
+  color: #fa2a2a;
+}
+
+.site-header.on-scroll nav .link-title a {
+  color: #FFFFFF;
+}
+
+.container {
+  width: 100%;
+}
+
+nav .pagetitle,
+nav .gallerytitle,
+nav .projecttitle,
+nav .linktitle,
+nav .social,
+nav .social li {
+  display: inline-block;
+  vertical-align: middle;
+}

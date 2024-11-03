@@ -6,12 +6,12 @@
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
   display: grid;
-  grid-template-rows: 20px 1fr 20px;
+  grid-template-rows: 5px 1fr 20px;
   align-items: center;
   justify-items: center;
   padding-left:160px;
   padding-right:160px;
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom:50px;
   gap: 0px;
   font-family: var(--font-geist-sans);
@@ -94,8 +94,11 @@ a.secondary {
   min-width: 180px;
 }
 
+
+
 .footer {
   grid-row-start: 3;
+  align-items: center;
   display: flex;
   gap: 24px;
 }
@@ -212,45 +215,6 @@ a.secondary {
 }
 
 /*
- HEADER BELOW
-*/
-
-.site-header {
-  -webkit-align-items: center;
-  align-items: center;
-  background-color: #615CA0;
-  height: 70px;
-  padding-bottom: 0px;
-  padding-left: 1.5%;
-  padding-right: 1.5%;
-  padding-top: 0px;
-  position: fixed;
-  z-index: 3; }
-  .site-header.on-scroll {
-    background-color: #AD715C; }
-    .site-header.on-scroll .logo,
-    .site-header.on-scroll .logo a {
-      color: #fa2a2a; }
-    .site-header.on-scroll .pf-nav-social svg {
-      fill: #FFFFFF;
-      opacity: 1; }
-    .site-header.on-scroll nav .page-title a {
-      color: #FFFFFF; }
-    .site-header.on-scroll nav .gallery-title a {
-      color: #FFFFFF; }
-    .site-header.on-scroll nav .project-title a {
-      color: #fa2a2a; }
-    .site-header.on-scroll nav .link-title a {
-      color: #FFFFFF; }
-
-.cringe:hover {
-  color: #ffde00;
-  transition-duration: 1s;
-  cursor: pointer;
-  transition: 0.2s ease, color 0.2s ease; 
-}
-
-/*
  SEPARATOR BELOW
 */
 
@@ -261,12 +225,14 @@ a.secondary {
   color: #a1a1aa;
 }
 
+
 .separator::before,
 .separator::after {
   content: '';
   flex: 1;
   border-bottom: 1.6px solid #28282A;
-  
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .separator:not(:empty)::before {
@@ -278,5 +244,76 @@ a.secondary {
 }
 
 .font_semibold {
+  font-size: 12px;
   font-weight: 600
+}
+
+.font_smallgray {
+  font-size: 12px;
+  color: #a1a1aa;
+}
+
+/*
+HOVER COLOR CHANGE
+*/
+
+.colorchange:hover {
+  color: #ffde00;
+  transition-duration: 1s;
+  cursor: pointer;
+  transition: 0.2s ease, color 0.2s ease; 
+  
+}
+
+/*
+Header
+*/
+
+.header {
+  grid-row-start: 1;
+  display: flex;
+  gap: 24px;
+  
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #0f0f0f;
+  height: 70px;
+  padding-bottom: 0px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 0px;
+  position: top;
+  z-index: 3;
+  border-bottom: 1.6px solid #28282A;
+  position:fixed;
+  width:100%;
+
+  font-family: "hw";
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.header a {
+  display: flex;
+  align-items: left;
+  gap: 8px;
+}
+
+.header img {
+  flex-shrink: 0;
+}
+
+.header:scroll {
+  background-color: #AD715C;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+  transition-property: a;}
+
+.changeFontBold {
+  font-family: "hwbold";
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
 }

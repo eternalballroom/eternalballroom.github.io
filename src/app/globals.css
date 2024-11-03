@@ -1,5 +1,5 @@
 :root {
-  /* --background: #6769bb;
+  /* --background: purp#6769bb white#edebdd;
   --foreground: #ededed; */
   --background: #0f0f0f;
   --foreground: #ededed;
@@ -38,5 +38,5 @@ a {
 
 img {
   max-width: 100%;
-  height: auto
+  /* height: auto */
 }

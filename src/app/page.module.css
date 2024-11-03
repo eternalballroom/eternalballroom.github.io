@@ -268,25 +268,31 @@ HOVER COLOR CHANGE
 /*
 Header
 */
+.headerContainer {
+  height: 70px;
+  border-bottom: 1.6px solid #28282A;
+  width:100%;
+  display: flex;
+  align-items: center;
+  position:fixed;
+  z-index: 1;
+  background-color: #0f0f0f;
+}
 
 .header {
   grid-row-start: 1;
   display: flex;
+  flex-direction: row;
+
   gap: 24px;
-  
   -webkit-align-items: center;
   align-items: center;
-  background-color: #0f0f0f;
-  height: 70px;
+  
   padding-bottom: 0px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 8%;
+  padding-right: 8%;
   padding-top: 0px;
   position: top;
-  z-index: 3;
-  border-bottom: 1.6px solid #28282A;
-  position:fixed;
-  width:100%;
 
   font-family: "hw";
   color: #ffffff;
@@ -295,9 +301,36 @@ Header
   font-size: 30px;
 }
 
+.headerSpacing{
+  width:65%;
+}
+
+.headerRight {
+  grid-row-start: 1;
+  display: flex;
+  flex-direction: row;
+
+  gap: 0px;
+  -webkit-align-items: center;
+  align-items: center;
+  
+  padding-right: 8%;
+  position: top;
+
+  font-family: "hw";
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
+.headerRight a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 .header a {
   display: flex;
-  align-items: left;
+  align-items: center;
   gap: 8px;
 }
 
@@ -316,4 +349,95 @@ Header
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
+  color: #ffde00;
 }
+/* .changeFontBold:hover {
+  color: #ffde00;
+  transition-duration: 1s;
+  cursor: pointer;
+  transition: 0.2s ease, color 0.2s ease; 
+} */
+
+.social {
+  font-size: 1; }
+  .social li {
+    display: inline-block; }
+    .social li:first-child {
+      padding-left: 0 !important; }
+    .social li:last-child {
+      padding-right: 0 !important; }
+    .social li svg {
+      vertical-align: middle; }
+  .social a {
+    display: block;
+    text-align: center; 
+}
+
+.pfnavsocial {
+  text-align: right;
+  align-items: right; }
+  .pfnavsocial li {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px; }
+  .pfnavsocial a:hover svg {
+    fill: #FFDF00;
+    opacity: 1; }
+  .pfnavsocial svg {
+    fill: #ffffff;
+    height: 49px;
+    opacity: 1;
+    width: 49px; }
+  @media (max-width: 932px) {
+    .pfnavsocial li {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px; }
+    .pfnavsocial svg {
+      height: 39px;
+      width: 39px; } }
+  @media (max-width: 540px) {
+    .pfnavsocial li {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px; }
+    .pfnavsocial svg {
+      height: 32px;
+      width: 32px; } }
+      .pfnavsocial {
+        text-align: right; }
+        .pfnavsocial li {
+          padding-top: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px; }
+        .pfnavsocial a:hover svg {
+          fill: #FFDF00;
+          opacity: 1; }
+        .pfnavsocial svg {
+          fill: #ffffff;
+          height: 49px;
+          opacity: 1;
+          width: 49px; }
+        @media (max-width: 932px) {
+          .pfnavsocial li {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px; }
+          .pfnavsocial svg {
+            height: 39px;
+            width: 39px; } }
+        @media (max-width: 540px) {
+          .pfnavsocial li {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px; }
+          .pfnavsocial svg {
+            height: 32px;
+            width: 32px; } }
+      

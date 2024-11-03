@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = localFont({
+/* const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
@@ -10,7 +10,7 @@ const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
-});
+}); */
 const hw  = localFont({
   src: "./fonts/hw.woff2",
   variable: "--font-hw",
@@ -22,15 +22,15 @@ const hwbold  = localFont({
   weight: "100 900",
 });
 
-/* export const metadata = {
+export const metadata = {
   title: "The Eternal Ballroom",
   description: "caretaker's Portfolio",
-}; */
+}; 
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en"> 
+      <body>  {/* className={`${geistSans.variable} ${geistMono.variable}`} */}
         {children}
       </body>
     </html>

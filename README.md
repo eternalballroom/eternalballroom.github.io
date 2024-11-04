@@ -1,5 +1,5 @@
-##Hello!
+## Hello!
 
-This is a website portfolio: [`The Eternal Ballroom`](https://eternalballroom.github.io/)
+This is a portfolio website: [`The Eternal Ballroom`](https://eternalballroom.github.io/)
 
 

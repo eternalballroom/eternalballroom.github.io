@@ -1,3 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
@@ -131,19 +136,22 @@ a.secondary {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 932px) {
   .page {
-    padding: 5px;
     padding-bottom: 80px;
     padding-top: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
+
+  
 
   .main {
     /* align-items: center; */
   }
 
   .main ol {
-    text-align: center;
+    
   }
 
   .ctas {
@@ -170,6 +178,7 @@ a.secondary {
 @media (prefers-color-scheme: dark) {
   .logo {
     filter: invert();
+    
   }
 }
 
@@ -265,15 +274,38 @@ HOVER COLOR CHANGE #ffde00
 /*
 Header
 */
+
 .headerContainer {
   height: 70px;
-  border-bottom: 1.6px solid #28282A;
   width: 100%;
   display: flex;
   align-items: center;
   position: fixed;
   z-index: 1;
   background-color: #0f0f0f;
+  border-bottom: 1.6px solid #28282A;
+}
+
+.headerLeft {
+  grid-row-start: 1;
+  display: flex;
+  flex-direction: row;
+
+  gap: 24px;
+  -webkit-align-items: center;
+  align-items: center;
+
+  padding-bottom: 0px;
+  padding-left: 8%;
+  padding-right: 0%;
+  padding-top: 0px;
+  position: top;
+
+  font-family: "hw";
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 .header {
@@ -286,8 +318,8 @@ Header
   align-items: center;
 
   padding-bottom: 0px;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 24px;
+  padding-right: 0%;
   padding-top: 0px;
   position: top;
 
@@ -321,6 +353,41 @@ Header
   font-size: 30px;
 }
 
+.headerHamburger {
+  grid-row-start: 1;
+  display: none;
+  flex-direction: row;
+
+  gap: 24px;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-items: right;
+  padding-left:20%;
+  padding-right: calc(8% - 13px);
+
+  position: top;
+  z-index: 2;
+
+  font-family: "hw";
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+
+}
+
+@media (max-width: 932px) {
+  .header {
+    display:none;
+  }
+  .headerHamburger {
+    display: flex;
+  }
+  .headerRight {
+    display:none;
+  }
+}
+
 .headerRight a {
   display: flex;
   align-items: center;
@@ -333,8 +400,9 @@ Header
   gap: 8px;
 }
 
-.header img {
+.headerLeft img {
   flex-shrink: 0;
+  min-width: 35px;
 }
 
 .header:scroll {
@@ -359,130 +427,23 @@ Header
   transition: 0.2s ease, color 0.2s ease;
 }
 
-.social {
-  font-size: 1;
+
+
+/* //HEADER TEMP */
+/* 
+.hamburg1 {
+
+  position: fixed;
+left: 0;
+shadow-4xl
+right: 0;
+top: 3.5rem;
+padding: 5px;
+background: neutral;
+border: 20px white;
+
+display: grid;
+gap: 2;
 }
 
-.social li {
-  display: inline-block;
-}
-
-.social li:first-child {
-  padding-left: 0 !important;
-}
-
-.social li:last-child {
-  padding-right: 0 !important;
-}
-
-.social li svg {
-  vertical-align: middle;
-}
-
-.social a {
-  display: block;
-  text-align: center;
-}
-
-.pfnavsocial {
-  text-align: right;
-  align-items: right;
-}
-
-.pfnavsocial li {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.pfnavsocial a:hover svg {
-  fill: #FFDF00;
-  opacity: 1;
-}
-
-.pfnavsocial svg {
-  fill: #ffffff;
-  height: 49px;
-  opacity: 1;
-  width: 49px;
-}
-
-@media (max-width: 932px) {
-  .pfnavsocial li {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .pfnavsocial svg {
-    height: 39px;
-    width: 39px;
-  }
-}
-
-@media (max-width: 540px) {
-  .pfnavsocial li {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .pfnavsocial svg {
-    height: 32px;
-    width: 32px;
-  }
-}
-
-.pfnavsocial {
-  text-align: right;
-}
-
-.pfnavsocial li {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.pfnavsocial a:hover svg {
-  fill: #FFDF00;
-  opacity: 1;
-}
-
-.pfnavsocial svg {
-  fill: #ffffff;
-  height: 49px;
-  opacity: 1;
-  width: 49px;
-}
-
-@media (max-width: 932px) {
-  .pfnavsocial li {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .pfnavsocial svg {
-    height: 39px;
-    width: 39px;
-  }
-}
-
-@media (max-width: 540px) {
-  .pfnavsocial li {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .pfnavsocial svg {
-    height: 32px;
-    width: 32px;
-  }
-}
+ */

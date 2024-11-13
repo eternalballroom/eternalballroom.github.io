@@ -1,8 +1,17 @@
 import styles from "../page.module.css";
-import React from 'react';
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from 'next/link';
-import { useEffect } from 'react';
+
+//mobile header -------
+
+import { useClickAway } from "react-use";
+import { useRef } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { Sling as Hamburger } from 'hamburger-react'
+
+import '../globals.css'
+
 
 export default function Header({ bold }) {
   //1 = main, 2 = work, 3 =         {`${styles.changeFontBold} ${styles.colorchange}`}
@@ -11,17 +20,30 @@ export default function Header({ bold }) {
     element.className = `${styles.changeFontBold} `;
   }, []);
 
+  const [isOpen, setOpen] = useState(false)
+  // --
+  const ref = useRef(null);
+
+  useClickAway(ref, () => setOpen(false));
+
+
   return (
     <header>
-      <div className={styles.headerContainer}>
-        <div className={styles.header}>
-          {/* <div className="separator font_semibold">ANNOUNCEMENTS</div> */}
+
+      <nav className={styles.headerContainer}>
+        <div className={styles.headerLeft}>
           <Image
             src="/images/chand.png"
             alt="C"
             width={35}
             height={35}
           />
+        </div>
+
+        <div className={styles.header}>
+          {/* <div className="separator font_semibold">ANNOUNCEMENTS</div> */}
+
+
           <Link
             href="/"
             rel="noopener noreferrer"
@@ -38,7 +60,22 @@ export default function Header({ bold }) {
           >
             work
           </a>
-          
+          <a
+            href="/about"
+            /* target="_blank" */
+            rel="noopener noreferrer"
+            className={styles.colorchange}
+            id="about"
+          >
+            {/* <Image
+            ariaHidden
+            src="/globe.svg"
+            alt="Globe icon"
+            width={16}
+            height={16}
+          /> */}
+            about
+          </a>
         </div>
 
         <div className={`${styles.headerSpacing}`}>
@@ -46,6 +83,7 @@ export default function Header({ bold }) {
           <a></a>
 
         </div>
+
 
         <div className={`${styles.headerRight}`}>
           <a
@@ -94,11 +132,63 @@ export default function Header({ bold }) {
               <path d="M10.4 7.4 16.9 0h-1.5L9.7 6.4 5.2 0H0l6.8 9.7L0 17.4h1.5l5.9-6.8 4.7 6.8h5.2l-6.9-10ZM8.3 9.8l-.7-1-5.5-7.6h2.4l4.4 6.2.7 1 5.7 8h-2.4L8.3 9.8Z" />
             </svg>
           </a>
+          <a
+            href="https://github.com/eternalballroom"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.colorchange}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              size="50%"
+              fill="currentColor"
+              viewBox="-7 -7.5 40 40"
+            >
+              <path d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75Z" />
+            </svg>
+          </a>
 
-          
 
         </div>
-      </div>
+        <div className={styles.headerHamburger}>
+
+
+          <div className={styles.colorchange}>
+            <Hamburger toggled={isOpen} toggle={setOpen} size={30} />
+
+
+            {isOpen && (
+              <div className="tw-text-blue tw-fixed tw-left-0 tw-shadow-4xl tw-right-0 tw-top-[3.5rem] tw-p-5 tw-pt-0 tw-bg-neutral-950 tw-border-b tw-border-b-white/20">
+                <ul className="tw-grid tw-gap-2">
+                   
+                  <li
+                    
+                    className="tw-text-blue tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700"
+                  >
+                    <a
+                      onClick={() => setOpen((prev) => !prev)}
+                      className={
+                        "tw-flex tw-items-center tw-justify-between tw-w-full tw-p-5 tw-rounded-xl tw-bg-neutral-950"
+                      }
+                      href="/two"
+                    >
+                      <span className="tw-flex tw-gap-1 tw-text-lg">Test</span>
+                      
+                    </a>
+                  </li>
+                  
+
+
+                </ul>
+              </div>
+            )}
+          </div>
+
+
+        </div>
+      </nav>
 
 
     </header>

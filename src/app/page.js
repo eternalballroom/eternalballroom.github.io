@@ -1,8 +1,11 @@
 'use client'
 
+import './globals.css'
+
+
 import Image from "next/image";
 import styles from "./page.module.css";
-import React from 'react';
+import React, { useEffect, useState } from "react";
 import Link from 'next/link';
 //embla
 import useEmblaCarousel from 'embla-carousel-react';
@@ -13,6 +16,9 @@ import Slideshow from "./components/slideshow";
 import Header from "./components/header";
 //cursor
 import Cursor from "./components/cursor";
+//hamburger
+
+
 
 //f
 export default function Home() {
@@ -40,18 +46,21 @@ export default function Home() {
       <div className={styles.page}>
 
         <main className={styles.main}>
-
+         <h1 className={styles.underline}>
+        
+      Hello world!
+    </h1> 
           <Slideshow images={imagesMain2} />
           <div className={`${styles.separator} ${styles.font_semibold}`}>𝕿𝖍𝖊 𝕰𝖙𝖊𝖗𝖓𝖆𝖑 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒</div>
 
-          <Image
+          <center><Image
             className={styles.logo}
             src="/next.svg"
             alt="Next.js logo"
             width={180}
             height={38}
             priority
-          />
+          /></center>
           <ol>
             <li>
               Site <code>HOME PAGE</code>.

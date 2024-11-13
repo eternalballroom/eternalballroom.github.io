@@ -45,11 +45,11 @@ export default function Home() {
       <title>The Eternal Ballroom</title>
       <div className={styles.page}>
 
-        <main className={styles.main}>
-         <h1 className={styles.underline}>
         
-      Hello world!
-    </h1> 
+        <main className={styles.main}>
+          
+
+
           <Slideshow images={imagesMain2} />
           <div className={`${styles.separator} ${styles.font_semibold}`}>𝕿𝖍𝖊 𝕰𝖙𝖊𝖗𝖓𝖆𝖑 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒</div>
 
@@ -67,6 +67,14 @@ export default function Home() {
             </li>
             <li>#1</li>
           </ol>
+
+          {/* I WAS USING THIS TO TEST TAILWIND */}
+         <h1 className={styles.underline}>
+        
+        Hello world!
+      </h1> 
+
+      
           <ol>
             <li>
               Site <code>HOME PAGE</code>.

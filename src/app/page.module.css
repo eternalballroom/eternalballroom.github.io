@@ -1,8 +1,4 @@
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
@@ -22,6 +18,8 @@
   font-family: var(--font-geist-sans);
 
 }
+
+
 
 @media (prefers-color-scheme: dark) {
   .page {
@@ -175,11 +173,15 @@ a.secondary {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .logo {
     filter: invert();
     
   }
+} */
+.logo {
+  filter: invert();
+  
 }
 
 /*
@@ -301,7 +303,6 @@ Header
   padding-top: 0px;
   position: top;
 
-  font-family: "hw";
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
@@ -318,12 +319,12 @@ Header
   align-items: center;
 
   padding-bottom: 0px;
-  padding-left: 24px;
+  padding-left: 37.5px;
   padding-right: 0%;
   padding-top: 0px;
   position: top;
 
-  font-family: "hw";
+  font-family: "chopin";
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
@@ -368,7 +369,7 @@ Header
   position: top;
   z-index: 2;
 
-  font-family: "hw";
+  font-family: "chopin";
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
@@ -412,10 +413,10 @@ Header
 }
 
 .changeFontBold {
-  font-family: "hwbold";
-  color: #ffffff;
+  /* font-family: "hwbold"; */
+  /* color: #551414; */
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 30px;
 
 }

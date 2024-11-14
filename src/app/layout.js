@@ -21,6 +21,12 @@ const hwbold  = localFont({
   variable: "--font-hwbold",
   weight: "100 900",
 });
+const chopin  = localFont({
+  src: "./fonts/ChopinScript.woff2",
+  variable: "--font-chopin",
+  weight: "100 900",
+});
+
 
 export const metadata = {
   title: "The Eternal Ballroom",

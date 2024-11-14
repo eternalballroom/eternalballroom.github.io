@@ -1,13 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  prefix: 'TW',
-
-
-
-  corePlugins: {
-      preflight: false,
-  },
-
+  prefix: 'tw-',
 
   content: [
     "./src/app/**/*.{html,js,jsx,ts,tsx}",
@@ -16,5 +9,13 @@ module.exports = {
     "./src/**/*.{html,js,jsx,ts,tsx}",
   ],
 
+  theme: {
+    extend: {
+      colors: {
+        'mygray': '#0f0f0f',
+        'mylightgray': '#28282A',
+      },
+    }
+  }
 
  }

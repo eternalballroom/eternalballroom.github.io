@@ -1,0 +1,2 @@
+change favicon octehedral border bg
+sizes of txt vs img in header?

@@ -50,7 +50,7 @@ export default function Header({ bold }) {
             className={styles.colorchange}
             id="home"
           >
-            home
+            Home
           </Link>
           <a
             href="/work"
@@ -58,7 +58,7 @@ export default function Header({ bold }) {
             className={styles.colorchange}
             id="work"
           >
-            work
+            Work
           </a>
           <a
             href="/about"
@@ -74,7 +74,7 @@ export default function Header({ bold }) {
             width={16}
             height={16}
           /> */}
-            about
+            About
           </a>
         </div>
 
@@ -157,37 +157,56 @@ export default function Header({ bold }) {
 
           <div className={styles.colorchange}>
             <Hamburger toggled={isOpen} toggle={setOpen} size={30} />
-
-
-            {isOpen && (
-              <div className="tw-text-blue tw-fixed tw-left-0 tw-shadow-4xl tw-right-0 tw-top-[3.5rem] tw-p-5 tw-pt-0 tw-bg-neutral-950 tw-border-b tw-border-b-white/20">
-                <ul className="tw-grid tw-gap-2">
-                   
-                  <li
-                    
-                    className="tw-text-blue tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700"
-                  >
-                    <a
-                      onClick={() => setOpen((prev) => !prev)}
-                      className={
-                        "tw-flex tw-items-center tw-justify-between tw-w-full tw-p-5 tw-rounded-xl tw-bg-neutral-950"
-                      }
-                      href="/two"
-                    >
-                      <span className="tw-flex tw-gap-1 tw-text-lg">Test</span>
-                      
-                    </a>
-                  </li>
-                  
-
-
-                </ul>
-              </div>
-            )}
           </div>
 
+          {isOpen && (
+            <div className="tw-fixed tw-left-0 tw-shadow-2xl tw-right-0 tw-top-[4.25rem] tw-p-4 tw-pt-0 tw-bg-mygray tw-border-b tw-border-b-mylightgray ">
+              <ul className="tw-grid tw-gap-2">
+                <li className="tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700 ">
+                  <a
+                    onClick={() => setOpen((prev) => !prev)}
+                    className={
+                      "tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray "
+                    }
+                    href="/two"
+                  >
+                    <span className="tw-flex tw-gap-1 ">Home</span>
+                  </a>
+                </li>
 
+                <li className="tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700 ">
+                  <a
+                    onClick={() => setOpen((prev) => !prev)}
+                    className={
+                      "tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray "
+                    }
+                    href="/thrro"
+                  >
+                    <span className="tw-flex tw-gap-1">Work</span>
+                    
+
+                  </a>
+
+                </li>
+
+                <li className="tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700 ">
+                  <a
+                    onClick={() => setOpen((prev) => !prev)}
+                    className={
+                      "tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray "
+                    }
+                    href="/two"
+                  >
+                    <span className="tw-flex tw-gap-1 ">About</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          )}
         </div>
+
+
+
       </nav>
 
 

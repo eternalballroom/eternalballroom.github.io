@@ -45,9 +45,9 @@ export default function Home() {
       <title>The Eternal Ballroom</title>
       <div className={styles.page}>
 
-        
+
         <main className={styles.main}>
-          
+
 
 
           <Slideshow images={imagesMain2} />
@@ -67,14 +67,6 @@ export default function Home() {
             </li>
             <li>#1</li>
           </ol>
-
-          {/* I WAS USING THIS TO TEST TAILWIND */}
-         <h1 className={styles.underline}>
-        
-        Hello world!
-      </h1> 
-
-      
           <ol>
             <li>
               Site <code>HOME PAGE</code>.

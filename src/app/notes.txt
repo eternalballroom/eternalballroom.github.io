@@ -1,2 +1,3 @@
 change favicon octehedral border bg
 sizes of txt vs img in header?
+top left img to return home

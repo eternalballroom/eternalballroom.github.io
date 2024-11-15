@@ -41,8 +41,10 @@ export default function Home() {
     <div>
       <Cursor />
       <Header bold="home" />
-      <link rel="icon" href="/images/chand.png" />
+      <link  rel="icon" href="/images/chand.png" />
       <title>The Eternal Ballroom</title>
+
+      
       <div className={styles.page}>
 
 

@@ -1,0 +1,55 @@
+.banner {
+    width: 100%;
+}
+
+.mastheadcont {
+    padding-top:70px;
+
+}
+
+.masthead {
+    /* stylelint-disable function-url-quotes */
+    background-image: url("/images/ballroom.png");
+    /* stylelint-enable function-url-quotes */
+    background-position: center center;
+
+    background-size: cover;
+    
+    
+    /* height: 70vh; ADD MEDIA FOR MOBILE*/ 
+    height: 41.42vh;
+    max-width: 150%;
+    margin-bottom: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+    display: flex;
+    align-items: center;
+
+   
+    position: relative;
+    width: 100%;
+
+    overflow: visible;
+    
+}
+
+.page {
+    --gray-rgb: 0, 0, 0;
+    --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+    --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+  
+    --button-primary-hover: #383838;
+    --button-secondary-hover: #f2f2f2;
+    display: grid;
+    
+    align-items: center;
+    justify-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+    row-gap: 1rem;
+    font-family: var(--font-geist-sans);
+  
+  }

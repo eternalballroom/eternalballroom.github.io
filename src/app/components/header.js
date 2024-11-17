@@ -33,12 +33,14 @@ export default function Header({ bold }) {
 
       <nav className={styles.headerContainer}>
         <div className={styles.headerLeft}>
+      
           <Image
             src="/images/chand.png"
             alt="C"
             width={35}
             height={35}
           />
+          
         </div>
 
         <div className={styles.header}>
@@ -128,7 +130,7 @@ export default function Header({ bold }) {
               width="50"
               height="50"
               fill="currentColor"
-              viewBox="-8 -3 35 24"
+              viewBox="-9 -3 35 24"
             >
               <path d="M10.4 7.4 16.9 0h-1.5L9.7 6.4 5.2 0H0l6.8 9.7L0 17.4h1.5l5.9-6.8 4.7 6.8h5.2l-6.9-10ZM8.3 9.8l-.7-1-5.5-7.6h2.4l4.4 6.2.7 1 5.7 8h-2.4L8.3 9.8Z" />
             </svg>
@@ -175,16 +177,17 @@ export default function Header({ bold }) {
                     transition={{
                       type: "spring",
                       stiffness: 260,
-                      damping: 20,
+                      damping: 25,
                       delay: 0.0,
                     }} className="tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700 ">
                     <a
 
-                      className={
-                        "tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray "
+                      className={`${styles.colorchange}
+                        ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray"}`
                       }
-                      href="/two"
+                      href="/"
                     >
+                      
                       <span className="tw-flex tw-gap-1 ">Home</span>
                     </a>
                   </motion.li>
@@ -195,15 +198,15 @@ export default function Header({ bold }) {
                     transition={{
                       type: "spring",
                       stiffness: 260,
-                      damping: 20,
+                      damping: 25,
                       delay: 0.1,
                     }} className="tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700 ">
                     <a
 
-                      className={
-                        "tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray "
+                      className={`${styles.colorchange}
+                        ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray"}`
                       }
-                      href="/thrro"
+                      href="/work"
                     >
                       <span className="tw-flex tw-gap-1">Work</span>
 
@@ -218,15 +221,15 @@ export default function Header({ bold }) {
                     transition={{
                       type: "spring",
                       stiffness: 260,
-                      damping: 20,
+                      damping: 25,
                       delay: 0.2,
                     }} className="tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700 ">
                     <a
                       /* onClick={() => setOpen((prev) => !prev)} */
-                      className={
-                        "tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray "
+                      className={`${styles.colorchange}
+                        ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray"}`
                       }
-                      href="/two"
+                      href="/about"
                     >
                       <span className="tw-flex tw-gap-1 ">About</span>
                     </a>
@@ -239,7 +242,7 @@ export default function Header({ bold }) {
                     transition={{
                       type: "spring",
                       stiffness: 260,
-                      damping: 20,
+                      damping: 25,
                       delay: 0.3,
                     }} className={"tw-flex tw-justify-between tw-w-full tw-pt-2 tw-bg-mygray"}>
                   <a className={"tw-ml-20"} />
@@ -286,7 +289,7 @@ export default function Header({ bold }) {
                       width="50"
                       height="50"
                       fill="currentColor"
-                      viewBox="-8 -3 35 24"
+                      viewBox="-9 -3 35 24"
                     >
                       <path d="M10.4 7.4 16.9 0h-1.5L9.7 6.4 5.2 0H0l6.8 9.7L0 17.4h1.5l5.9-6.8 4.7 6.8h5.2l-6.9-10ZM8.3 9.8l-.7-1-5.5-7.6h2.4l4.4 6.2.7 1 5.7 8h-2.4L8.3 9.8Z" />
                     </svg>

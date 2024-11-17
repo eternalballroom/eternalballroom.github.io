@@ -39,10 +39,7 @@ img {
   /* height: auto */
 }
 
-::-moz-selection {
-  background: #cf9a30;
-}
-
 ::selection {
-  background: #cf9a30;
+  background: #78001b;
+  /* #cf9a30 */
 }

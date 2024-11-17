@@ -1,15 +1,10 @@
 'use client'
 
 import './globals.css'
-
-
 import Image from "next/image";
 import styles from "./page.module.css";
 import React, { useEffect, useState } from "react";
 import Link from 'next/link';
-//embla
-import useEmblaCarousel from 'embla-carousel-react';
-import Autoplay from 'embla-carousel-autoplay';
 //components
 import Footer from "./components/footer";
 import Slideshow from "./components/slideshow";
@@ -46,13 +41,13 @@ export default function Home() {
 
       
       <div className={styles.page}>
-
+      <Slideshow images={imagesMain2} />
 
         <main className={styles.main}>
 
 
 
-          <Slideshow images={imagesMain2} />
+          
           <div className={`${styles.separator} ${styles.font_semibold}`}>𝕿𝖍𝖊 𝕰𝖙𝖊𝖗𝖓𝖆𝖑 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒</div>
 
           <center><Image

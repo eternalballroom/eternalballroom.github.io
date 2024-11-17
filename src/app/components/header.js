@@ -180,7 +180,7 @@ export default function Header({ bold }) {
                       damping: 25,
                       delay: 0.0,
                     }} className="tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700 ">
-                    <a
+                    <Link
 
                       className={`${styles.colorchange}
                         ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray"}`
@@ -189,7 +189,7 @@ export default function Header({ bold }) {
                     >
                       
                       <span className="tw-flex tw-gap-1 ">Home</span>
-                    </a>
+                    </Link>
                   </motion.li>
 
                   <motion.li
@@ -201,7 +201,7 @@ export default function Header({ bold }) {
                       damping: 25,
                       delay: 0.1,
                     }} className="tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700 ">
-                    <a
+                    <Link
 
                       className={`${styles.colorchange}
                         ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray"}`
@@ -211,7 +211,7 @@ export default function Header({ bold }) {
                       <span className="tw-flex tw-gap-1">Work</span>
 
 
-                    </a>
+                    </Link>
 
                   </motion.li>
 
@@ -224,7 +224,7 @@ export default function Header({ bold }) {
                       damping: 25,
                       delay: 0.2,
                     }} className="tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700 ">
-                    <a
+                    <Link
                       /* onClick={() => setOpen((prev) => !prev)} */
                       className={`${styles.colorchange}
                         ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray"}`
@@ -232,7 +232,7 @@ export default function Header({ bold }) {
                       href="/about"
                     >
                       <span className="tw-flex tw-gap-1 ">About</span>
-                    </a>
+                    </Link>
                   </motion.li>
                 </ul>
                 {/* START OF SOCIALS */}

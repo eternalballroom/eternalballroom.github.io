@@ -19,7 +19,7 @@ export default function Slideshow({ images }) {
                 {
                     images.map((img,i) =>
                         <div className={`basis-full md:basis-[55%] ${styles.embla__slide} ${styles.transform}` } key={img.path+i}>
-                            <Link href={img.url}><img src={img.path} /></Link>
+                            <Link href={img.url}><img src={img.path} alt=""/></Link>
                         </div>
                     )
                 }

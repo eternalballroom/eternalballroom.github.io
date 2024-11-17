@@ -16,12 +16,13 @@
     color: #7b3d17;
     font-size: 22px;
     font-family: "brs";
+    padding-bottom: 25px;
 }
 
 .aboutcontainer {
     margin-top:25px;
     display:grid;
-    gap: 7px;
+    gap: 0px;
     align-items: center;
     text-align: center;
     /* font-family: "ss"; */
@@ -30,7 +31,6 @@
 }
 
 .abouttextcontainer {
-
     padding-left: 25%;
     padding-right: 25%;  
 }
@@ -39,15 +39,26 @@
 .imageviewport {
     width:80%;
     max-width: 350px;
+}
 
+.spotify {
+    border-radius:12px;
+    border: 0px;
+    
 }
 
 @media (max-width: 932px) {
     .text {
         font-size: 15px;
     }
+    .handwriting {
+        font-size: 17px;
+    }
     .abouttextcontainer {
         padding-left: 5%;
         padding-right: 5%;   
+    }
+    .imageviewport {
+        width:70%;
     }
 }

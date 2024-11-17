@@ -60,49 +60,10 @@ export default function Home() {
           /></center>
           <ol>
             <li>
-              Site <code>HOME PAGE</code>.
+              This site is currently under construction as of <code>11/17/24</code>.
             </li>
-            <li>#1</li>
-          </ol>
-          <ol>
-            <li>
-              Site <code>HOME PAGE</code>.
-            </li>
-            <li>#1</li>
-          </ol>
-          <ol>
-            <li>
-              Site <code>HOME PAGE</code>.
-            </li>
-            <li>#1</li>
-          </ol>
-          <ol>
-            <li>
-              Site <code>HOME PAGE</code>.
-            </li>
-            <li>#1</li>
-          </ol>
-          <ol>
-            <li>
-              Site <code>HOME PAGE</code>.
-            </li>
-            <li>#1</li>
-          </ol>
-          <ol>
-            <li>
-              Site <code>HOME PAGE</code>.
-            </li>
-            <li>#1</li>
           </ol>
 
-          <ul>
-            <li>
-              <Link href="/" media="(prefers-color-scheme: light)">Home</Link>
-            </li>
-            <li>
-              <Link href="/two">About Us</Link>
-            </li>
-          </ul>
 
 
           <div className={styles.ctas}>

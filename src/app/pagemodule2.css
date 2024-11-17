@@ -64,9 +64,13 @@
 
 @media (max-width: 932px) {
     .page {
-        padding-bottom: 80px;
+        padding-bottom: 30px;
         padding-top: 10px;
         padding-left: 5px;
         padding-right: 5px;
+    }
+    .masthead {
+        height: 25vh;
+    
     }
 }

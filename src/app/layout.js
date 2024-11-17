@@ -38,12 +38,14 @@ export const metadata = {
   description: "caretaker's Portfolio",
 }; 
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en"> 
       <body>  {/* className={`${geistSans.variable} ${geistMono.variable}`} */}
         {children}
+
+
+        <link rel="stylesheet" href="https://use.typekit.net/mws5fgn.css"></link>
       </body>
     </html>
   );

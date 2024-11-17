@@ -1,5 +1,53 @@
 .stars {
     color: #ffa951;
+    /* gold #ffa951 yel #fecd3d*/
+    font-size: 16px;
+    padding-top: 11px;
+    padding-bottom: 6px;
+}
+
+.text {
+    color: #fff;
+    font-size: 20px;
+    font-family: "futura-pt", sans-serif;
+}
+
+.handwriting {
+    color: #7b3d17;
+    font-size: 22px;
+    font-family: "brs";
+}
+
+.aboutcontainer {
+    margin-top:25px;
+    display:grid;
+    gap: 7px;
     align-items: center;
     text-align: center;
+    /* font-family: "ss"; */
+    
+    font-style: normal;
+}
+
+.abouttextcontainer {
+
+    padding-left: 25%;
+    padding-right: 25%;  
+}
+
+
+.imageviewport {
+    width:80%;
+    max-width: 350px;
+
+}
+
+@media (max-width: 932px) {
+    .text {
+        font-size: 15px;
+    }
+    .abouttextcontainer {
+        padding-left: 5%;
+        padding-right: 5%;   
+    }
 }

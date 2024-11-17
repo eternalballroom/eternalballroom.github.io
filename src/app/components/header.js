@@ -56,14 +56,6 @@ export default function Header({ bold }) {
             Home
           </Link>
           <a
-            href="/work"
-            rel="noopener noreferrer"
-            className={styles.colorchange}
-            id="work"
-          >
-            Work
-          </a>
-          <a
             href="/about"
             /* target="_blank" */
             rel="noopener noreferrer"
@@ -78,6 +70,14 @@ export default function Header({ bold }) {
             height={16}
           /> */}
             About
+          </a>
+          <a
+            href="/work"
+            rel="noopener noreferrer"
+            className={styles.colorchange}
+            id="work"
+          >
+            Work
           </a>
         </div>
 
@@ -192,6 +192,8 @@ export default function Header({ bold }) {
                     </Link>
                   </motion.li>
 
+                  
+
                   <motion.li
                     initial={{ scale: 0, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
@@ -200,6 +202,28 @@ export default function Header({ bold }) {
                       stiffness: 260,
                       damping: 25,
                       delay: 0.1,
+                    }} className="tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700 ">
+                    <Link
+                      /* onClick={() => setOpen((prev) => !prev)} */
+                      className={`${styles.colorchange}
+                        ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray"}`
+                      }
+                      href="/about"
+                    >
+                      <span className="tw-flex tw-gap-1 ">About</span>
+                    </Link>
+                  </motion.li>
+
+
+
+                  <motion.li
+                    initial={{ scale: 0, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
+                    transition={{
+                      type: "spring",
+                      stiffness: 260,
+                      damping: 25,
+                      delay: 0.2,
                     }} className="tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700 ">
                     <Link
 
@@ -213,26 +237,6 @@ export default function Header({ bold }) {
 
                     </Link>
 
-                  </motion.li>
-
-                  <motion.li
-                    initial={{ scale: 0, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 260,
-                      damping: 25,
-                      delay: 0.2,
-                    }} className="tw-w-full tw-p-[0.08rem] tw-rounded-xl tw-bg-gradient-to-tr tw-from-neutral-800 tw-via-neutral-950 tw-to-neutral-700 ">
-                    <Link
-                      /* onClick={() => setOpen((prev) => !prev)} */
-                      className={`${styles.colorchange}
-                        ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray"}`
-                      }
-                      href="/about"
-                    >
-                      <span className="tw-flex tw-gap-1 ">About</span>
-                    </Link>
                   </motion.li>
                 </ul>
                 {/* START OF SOCIALS */}

@@ -26,12 +26,18 @@ const chopin  = localFont({
   variable: "--font-chopin",
   weight: "100 900",
 });
+const brs  = localFont({
+  src: "./fonts/BinggraeSamanco.woff2",
+  variable: "--font-brs",
+  weight: "100 900",
+});
 
 
 export const metadata = {
   title: "The Eternal Ballroom",
   description: "caretaker's Portfolio",
 }; 
+
 
 export default function RootLayout({ children }) {
   return (

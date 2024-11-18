@@ -3,3 +3,10 @@ X change favicon octehedral border bg
 
 sizes of txt vs img in header?
 top left img to return home
+
+
+---
+
+
+footer to socials (after all socials decided) (remove underline)
+footer font

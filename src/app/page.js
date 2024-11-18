@@ -26,9 +26,9 @@ export default function Home() {
   ]
 
   const imagesMain2 = [
-    { path: "/images/main_pixelnb.png", url: "/two" },
-    { path: "/images/main_pixelnb.png", url: "/break" },
-    { path: "/images/main_pixel.png", url: "/two" },
+    { path: "/images/main_pixelnb.png", url: "/work/pixels" },
+    { path: "/images/main_pixelnb.png", url: "/work/pixels" },
+    { path: "/images/main_pixel.png", url: "/work/pixels" },
   ]
 
 

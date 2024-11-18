@@ -15,7 +15,7 @@
   padding-top: 75px;
   padding-bottom: 50px;
   row-gap: 1rem;
-  font-family: var(--font-geist-sans);
+  font-family: "futura-pt", sans-serif;;
 
 }
 
@@ -44,7 +44,7 @@
   font-family: var(--font-geist-mono);
   padding-left: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.01em;
   list-style-position: inside;
@@ -60,14 +60,15 @@
   padding: 2px 4px;
   border-radius: 4px;
   font-weight: 600;
+  font-size: 16px;
 }
 
-.ctas {
+.buttons {
   display: flex;
-  gap: 16px;
+  gap: 10px;
 }
 
-.ctas a {
+.buttons a {
   appearance: none;
   border-radius: 128px;
   height: 48px;
@@ -85,17 +86,21 @@
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
+  font-family: "futura-pt", sans-serif;
 }
 
 a.primary {
   background: var(--foreground);
   color: var(--background);
   gap: 8px;
+  min-width: 180px;
+  max-width: 180px;
 }
 
 a.secondary {
   border-color: var(--gray-alpha-200);
   min-width: 180px;
+  max-width: 180px;
 }
 
 
@@ -113,6 +118,11 @@ a.secondary {
   gap: 8px;
 }
 
+.footer:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .footer img {
   flex-shrink: 0;
 }
@@ -128,11 +138,6 @@ a.secondary {
     background: var(--button-secondary-hover);
     border-color: transparent;
   }
-
-  .footer a:hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-  }
 }
 
 @media (max-width: 932px) {
@@ -144,34 +149,24 @@ a.secondary {
     row-gap: 10px;
   }
 
-  
-
-  .main {
-    /* align-items: center; */
-  }
-
-  .main ol {
-    
-  }
-
-  .ctas {
+  .buttons {
     flex-direction: column;
+    align-items: center;
   }
 
-  .ctas a {
-    font-size: 14px;
+  .buttons a {
+    font-size: 15px;
     height: 40px;
     padding: 0 16px;
-  }
-
-  a.secondary {
-    min-width: auto;
+    
+    /* var(--font-geist-mono) */
   }
 
   .footer {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    
   }
 }
 
@@ -196,8 +191,6 @@ a.secondary {
   --slide-spacing: 25px;
   --slide-size: 100%
 }
-
-.main {}
 
 .embla__viewport {
   overflow: visible;
@@ -261,6 +254,7 @@ a.secondary {
 .font_smallgray {
   font-size: 12px;
   color: #a1a1aa;
+  font-family: "ss"; /* "futura-pt", sans-serif; */
 }
 
 /*
@@ -375,7 +369,7 @@ Header
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
-  font-size: 27.5px;
+  font-size: 26px;
 
 }
 

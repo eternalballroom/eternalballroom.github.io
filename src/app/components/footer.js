@@ -18,7 +18,7 @@ export default function Footer() {
           width={16}
           height={16}
         /> */}
-        ⓧ 2024 caretaker
+        ⓧ &nbsp;2024 caretaker
       </div>
     </footer>
   );

@@ -2,9 +2,14 @@
     color: #ffa951;
     /* gold #ffa951 yel #fecd3d*/
     font-size: 16px;
-    padding-top: 11px;
     padding-bottom: 6px;
+    /* :not(:first-of-type) */
 }
+
+.stars:not(:first-of-type) {
+    padding-top: 11px;
+}
+
 
 .text {
     color: #fff;
@@ -16,7 +21,7 @@
     color: #7b3d17;
     font-size: 22px;
     font-family: "brs";
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .aboutcontainer {
@@ -39,12 +44,14 @@
 .imageviewport {
     width:80%;
     max-width: 350px;
+    padding-bottom: 5px;
 }
 
 .spotify {
-    border-radius:12px;
+    border-radius:15px;
     border: 0px;
-    
+    width: 400px; 
+    height: 80px; 
 }
 
 @media (max-width: 932px) {
@@ -60,5 +67,8 @@
     }
     .imageviewport {
         width:70%;
+    }
+    .spotify {
+        width: 95%; 
     }
 }

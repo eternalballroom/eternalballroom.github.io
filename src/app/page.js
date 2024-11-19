@@ -12,8 +12,8 @@ import Header from "./components/header";
 //cursor
 import Cursor from "./components/cursor";
 //hamburger
-
-
+//oneko
+import Oneko from "./components/oneko.js";
 
 //f
 export default function Home() {
@@ -31,25 +31,23 @@ export default function Home() {
     { path: "/images/main_pixel.png", url: "/work/pixels" },
   ]
 
-
   return (
     <div>
       <Cursor />
+
       <Header bold="home" />
       <link  rel="icon" href="/images/chand.png" />
       <title>The Eternal Ballroom</title>
-
+      
       
       <div className={styles.page}>
       <Slideshow images={imagesMain2} />
-
+      
         <main className={styles.main}>
-
-
-
-          
+    
           <div className={`${styles.separator} ${styles.font_semibold}`}>𝕿𝖍𝖊 𝕰𝖙𝖊𝖗𝖓𝖆𝖑 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒</div>
 
+          
           <center><Image
             className={styles.logo}
             src="/next.svg"
@@ -89,4 +87,4 @@ export default function Home() {
       </div>
     </div>
   );
-}
+  }

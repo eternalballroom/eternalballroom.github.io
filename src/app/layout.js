@@ -1,6 +1,10 @@
 import localFont from "next/font/local";
 import "./globals.css";
 
+
+//neko
+
+
 /* const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -33,6 +37,7 @@ const brs  = localFont({
 });
 
 
+
 export const metadata = {
   title: "The Eternal Ballroom",
   description: "caretaker's Portfolio",
@@ -50,3 +55,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+

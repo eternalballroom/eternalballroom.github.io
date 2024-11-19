@@ -210,7 +210,7 @@ export default function Header({ bold }) {
                       }
                       href="/about"
                     >
-                      <span className="tw-flex tw-gap-1 ">About</span>
+                      <span className="tw-flex tw-gap-1">About</span>
                     </Link>
                   </motion.li>
 

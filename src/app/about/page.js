@@ -12,12 +12,15 @@ import Slideshow from "../components/slideshow";
 import Header from "../components/header";
 //cursor
 import Cursor from "../components/cursor";
+//oneko
+import Oneko from "../components/oneko.js";
 
 //f
 export default function Work() {
     return (
         <div>
             <Cursor />
+            <Oneko />
             <Header bold="work" />
             <link rel="icon" href="/images/chand.png" />
             <title>The Eternal Ballroom</title>
@@ -51,7 +54,7 @@ export default function Work() {
                                 
                                 {/* fantasy is his favorite genre, reggaeton is favorite genre,  and 805s his favorite drink.  */}
                             </div>
-                            <center><iframe className="spotify" src="https://open.spotify.com/embed/track/2JXiyD1zucGdFmnTeYb5Ry?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></center>
+                            <center><iframe className="spotify" src="https://open.spotify.com/embed/track/6I5OUXptquppKljwsBsICx?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></center>
                         </div>
                     </main>
                     <Footer />

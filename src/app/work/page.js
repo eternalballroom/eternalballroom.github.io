@@ -24,7 +24,7 @@ export default function Work() {
       <title>The Eternal Ballroom</title>
 
       <div className="mastheadcont">
-        <a className="masthead"></a>
+        <a className="mastheadsig"></a>
         <div className="page">
           <main className={styles.main}>
             <div className={`${styles.separator} ${styles.font_semibold}`}>𝕿𝖍𝖊 𝕰𝖙𝖊𝖗𝖓𝖆𝖑 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒</div>

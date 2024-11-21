@@ -1,29 +1,55 @@
+.pixelspage {
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
 .pixelscontainer {
     display: flex;
-    width: auto; 
+    width: auto;
+    
     justify-content: center;
-    padding-top:15px;
-    gap:50px;
-    
-    
+    padding-top: 15px;
+    gap: 50px;
+
+    overflow: hidden;
+    justify-content: center;
 }
 
 .column {
     overflow: hidden;
-    flex:50%;   
     justify-content: center;
-    
+
 }
 
 .slideviewport {
+    overflow: hidden;
     width: auto;
-    
+
 }
 
 @media (max-width: 932px) {
     .viewport {
-      width:92.5% } 
+        width: 92.5%
+    }
+    .column {
+        
+    }
+    .pixelscontainer {
+        gap: 20px;
+        display: flex;
+    flex-wrap: wrap; 
+        
+        padding-bottom: 0px;
+    padding-top: 0px; 
+    width:92.5%;
+
+    
+    }
+    
+    
 }
+
 /* 
 padding-left: 160px;
     padding-right: 160px; */

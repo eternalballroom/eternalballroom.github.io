@@ -60,20 +60,21 @@ export default function Work() {
                 <div className="page">
                     <main className={styles.main}>
                         <div className={`${styles.separator} ${styles.font_semibold}`}>𝕿𝖍𝖊 𝕰𝖙𝖊𝖗𝖓𝖆𝖑 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒</div>
-
+                        <div className="pixelspage">
                         <div className="pixelscontainer">
-                            <div className="column">
+                            
                                 <div className="slideviewport">
                                     <ImageGallery showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images1} />
                                     {/* showBullets={true} */}
                                 </div>
-                            </div>
-                            <div className="column">
+                            
+                            
                                 <div className="slideviewport">
                                     <ImageGallery showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images2} />
                                 </div>
-                            </div>
+                            
 
+                        </div>
                         </div>
                     </main>
                     <Footer />

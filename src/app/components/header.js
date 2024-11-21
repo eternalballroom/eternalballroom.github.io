@@ -33,13 +33,15 @@ export default function Header({ bold }) {
 
       <nav className={styles.headerContainer}>
         <div className={styles.headerLeft}>
-      
+      <Link
+      href="/">
           <Image
             src="/images/chand.png"
             alt="C"
             width={35}
             height={35}
           />
+          </Link>
           
         </div>
 

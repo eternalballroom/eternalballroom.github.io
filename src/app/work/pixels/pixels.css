@@ -1,0 +1,29 @@
+.pixelscontainer {
+    display: flex;
+    width: auto; 
+    justify-content: center;
+    padding-top:15px;
+    gap:50px;
+    
+    
+}
+
+.column {
+    overflow: hidden;
+    flex:50%;   
+    justify-content: center;
+    
+}
+
+.slideviewport {
+    width: auto;
+    
+}
+
+@media (max-width: 932px) {
+    .viewport {
+      width:92.5% } 
+}
+/* 
+padding-left: 160px;
+    padding-right: 160px; */

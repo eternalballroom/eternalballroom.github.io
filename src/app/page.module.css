@@ -116,7 +116,7 @@ a.secondary {
 
 
 .footer {
-  padding-top: 10px;
+  padding-top: 25px;
   grid-row-start: 3;
   align-items: center;
   display: flex;
@@ -173,6 +173,7 @@ a.secondary {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-top:0px;
     
   }
 

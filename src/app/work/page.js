@@ -125,11 +125,11 @@ export default function Work() {
 
 
           </main>
-          
+          <Footer />
         </div>
         
       </div>
-      <Footer />
+      
     </div >
   );
 }

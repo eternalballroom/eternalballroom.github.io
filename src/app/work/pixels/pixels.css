@@ -25,7 +25,7 @@
 .doubleslideviewport {
     overflow: hidden;
     width: auto;
-    justify-content: center;
+    justify-items: center;
 
 }
 
@@ -34,9 +34,52 @@
     font-family: "futura-pt", sans-serif;
     font-size: 18px;
 }
-.textboxcenter {
-    justify-items: center;
+
+.textboxtoolstext {
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    font-size: 16px;
 }
+
+.textboxtoolswrap {
+    display:flex;
+    color:#a1a1aa;
+    /* :not(:last-of-type) */
+    padding-bottom: 20px;
+}
+
+.textboxtoolswraplast { /* use this later */
+    display:flex;
+    color:#a1a1aa;
+}
+
+.textboxcenter {
+    display:grid;
+    justify-items: center;
+    gap:5px;
+}
+
+.textboxleft {
+    display:grid;
+    justify-items: left;
+    gap:5px;
+}
+.textboxleft2 {
+    text-align: left;
+    font-family: "futura-pt", sans-serif;
+    font-size: 18px;
+}
+
+.kitchenchaosviewport2 {
+    max-width: 650px;
+}
+
+.kitchenchaosviewport1 {
+    max-width: 900px;
+}
+
+
+
 
 .customlink {
     color: #ffa951;
@@ -70,6 +113,17 @@
     }
     .textbox {
         width:90%;
+    }
+
+    .textboxleft {
+        display:grid;
+        justify-items: center;
+        gap:5px;
+    }
+    .textboxleft2 {
+        text-align: center;
+        font-family: "futura-pt", sans-serif;
+        font-size: 18px;
     }
 }
 

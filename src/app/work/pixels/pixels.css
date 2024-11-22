@@ -1,13 +1,13 @@
 .doublepage {
     display: flex;
-    width:100%;
+    width: 100%;
     justify-content: center;
 }
 
 .doublecontainer {
     display: flex;
     width: auto;
-    
+
     justify-content: center;
     padding-top: 15px;
     gap: 35px;
@@ -42,28 +42,30 @@
 }
 
 .textboxtoolswrap {
-    display:flex;
-    color:#a1a1aa;
+    display: flex;
+    color: #a1a1aa;
     /* :not(:last-of-type) */
     padding-bottom: 20px;
 }
 
-.textboxtoolswraplast { /* use this later */
-    display:flex;
-    color:#a1a1aa;
+.textboxtoolswraplast {
+    /* use this later */
+    display: flex;
+    color: #a1a1aa;
 }
 
 .textboxcenter {
-    display:grid;
+    display: grid;
     justify-items: center;
-    gap:5px;
+    gap: 5px;
 }
 
 .textboxleft {
-    display:grid;
+    display: grid;
     justify-items: left;
-    gap:5px;
+    gap: 5px;
 }
+
 .textboxleft2 {
     text-align: left;
     font-family: "futura-pt", sans-serif;
@@ -83,43 +85,47 @@
 
 .customlink {
     color: #ffa951;
-    
+
     /* text-decoration-color: */
 }
-.customlink:hover{
+
+.customlink:hover {
     text-decoration: underline;
 }
-  
+
 
 @media (max-width: 932px) {
+
     /* .doubleslideviewport {
         width: 92.5%
     } */
-    .column {
-        
-    }
+    .column {}
+
     .doublecontainer {
         gap: 20px;
         display: flex;
-        flex-wrap: wrap; 
-        
+        flex-wrap: wrap;
+
         padding-bottom: 0px;
-        padding-top: 0px; 
-        width:92.5%;
+        padding-top: 0px;
+        width: 92.5%;
     }
+
     .doublepage {
         padding-top: 5px;
 
     }
+
     .textbox {
-        width:90%;
+        width: 90%;
     }
 
     .textboxleft {
-        display:grid;
+        display: grid;
         justify-items: center;
-        gap:5px;
+        gap: 5px;
     }
+
     .textboxleft2 {
         text-align: center;
         font-family: "futura-pt", sans-serif;
@@ -130,3 +136,23 @@
 /* 
 padding-left: 160px;
     padding-right: 160px; */
+
+
+.image-gallery-icon:hover {
+    color: #ffa951 !important;
+}
+.image-gallery-thumbnail:hover {
+    border: 3px solid #ffa951 !important;
+}
+.image-gallery-thumbnail.active {
+    border: 4px solid #ffa951 !important;
+}
+
+.image-gallery-bullet:hover {
+    background: #ffa951 !important;
+    border: 1px solid #ffa951 !important;
+}
+/* .image-gallery-bullet.active {
+    background: #ffa951 !important;
+    border: 1px solid #ffa951 !important;
+} */

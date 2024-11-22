@@ -97,8 +97,8 @@ export default function Work() {
                         <div className="doublepage">
                             <div className="doublecontainer">
                                 <div className="doubleslideviewport">
-                                    <ImageGallery showNav={false} showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images1} />
-                                    {/* showBullets={true} showNav*/}
+                                    <ImageGallery  showNav={false} showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images1} />
+                                    {/* showBullets={true} showNav isRTL={true} */}
                                 </div>
                                 <div className="doubleslideviewport">
                                     <ImageGallery showNav={false} showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images2} />

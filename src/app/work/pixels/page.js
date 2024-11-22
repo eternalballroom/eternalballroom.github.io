@@ -132,7 +132,7 @@ export default function Work() {
                                     <div className="kitchenchaosviewport2">
                                         <ImageGallery infinite={false} showBullets={true} showPlayButton={false} showThumbnails={false} showFullscreenButton={false} autoPlay={true} slideInterval={3000} slideDuration={700} showNav={true} items={images3} />
                                         <div className="textboxleft">
-                                            <div className="textboxleft2">Pixel art done for a 48-hour UCSD game jam. The food and some backgrounds were borrowed from a free asset pack, and the knife/picnic basket are references to OMORI. The game can be played&nbsp;
+                                            <div className="textboxleft2">Pixel art done for a 48-hour UCSD game jam. The food and some backgrounds were borrowed from a free asset pack, and the knife/picnic basket are references to OMORI. The game, though unfinished, can be played&nbsp;
                                                 <a className="customlink" href="https://argro.itch.io/game-jam-fall-22-ucsd-kitchen-chaos" target="_blank">here</a>.
                                             </div>
                                             <div className="textboxtoolswrap">

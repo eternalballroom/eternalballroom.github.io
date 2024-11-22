@@ -25,7 +25,7 @@ export default function Work() {
             original: "/images/pixel3.png",
             thumbnail: "/images/pixel3.png",
         },
-        
+
         {
             original: "/images/pixel5.png",
             thumbnail: "/images/pixel5.png",
@@ -56,27 +56,37 @@ export default function Work() {
 
 
             <div className="mastheadcont">
-                <a className="mastheadsig"></a>
+                <a className="masthead">
+                    <div className="mastheadtext">
+                        Pixels
+                    </div>
+                </a>
                 <div className="page">
                     <main className={styles.main}>
                         <div className={`${styles.separator} ${styles.font_semibold}`}>𝕿𝖍𝖊 𝕰𝖙𝖊𝖗𝖓𝖆𝖑 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒</div>
-                        <div className="pixelspage">
-                        <div className="pixelscontainer">
-                            
-                                <div className="slideviewport">
+                        <div className="doublepage">
+                            <div className="doublecontainer">
+                                <div className="doubleslideviewport">
                                     <ImageGallery showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images1} />
-                                    {/* showBullets={true} */}
+                                    {/* showBullets={true} showNav*/}
                                 </div>
-                            
-                            
-                                <div className="slideviewport">
+                                <div className="doubleslideviewport">
                                     <ImageGallery showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images2} />
                                 </div>
-                            
+                            </div>
+                        </div>
 
+
+                        <div className="textboxcenter">
+                        <div className="textbox">Commissioned pixel art banners for NameMC profiles. Artwork is split between 26 Minecraft skin heads, rendering a display as shown on this profile:&nbsp;
+                            <a className="customlink" href="https://namemc.com/profile/Chu.5" target="_blank">Chu</a>
                         </div>
                         </div>
+
+
+                        <div className={styles.push}></div>
                     </main>
+                    
                     <Footer />
                 </div>
             </div>

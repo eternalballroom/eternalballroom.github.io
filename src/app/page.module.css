@@ -36,8 +36,15 @@
   display: flex;
   flex-direction: column;
   width:100%;
-  gap: 16px;
+  gap: 8px;
   
+}
+
+.main2 {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  gap: 20px;
 }
 
 .main ol {
@@ -65,7 +72,10 @@
 
 .buttons {
   display: flex;
+  flex-direction: row;
   gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .buttons a {
@@ -106,10 +116,12 @@ a.secondary {
 
 
 .footer {
+  padding-top: 10px;
   grid-row-start: 3;
   align-items: center;
   display: flex;
   gap: 24px;
+  
 }
 
 .footer a {
@@ -149,11 +161,6 @@ a.secondary {
     row-gap: 10px;
   }
 
-  .buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .buttons a {
     font-size: 15px;
     height: 40px;
@@ -167,6 +174,11 @@ a.secondary {
     align-items: center;
     justify-content: center;
     
+  }
+
+  a.secondary {
+    min-width: 45%;
+    max-width: 120px;
   }
 }
 
@@ -279,7 +291,7 @@ Header
   display: flex;
   align-items: center;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   background-color: #0f0f0f;
   border-bottom: 1.6px solid #28282A;
 }
@@ -443,3 +455,33 @@ gap: 2;
 }
 
  */
+
+.textboxside {
+  display:flex;
+  overflow:hidden;
+
+}
+
+.textbox {
+  text-align: center;
+  font-family: "futura-pt", sans-serif;
+  font-size: 18px;
+}
+
+.textboxbig {
+  text-align: center;
+  font-family: "futura-pt", sans-serif;
+  font-size: 50px;
+  /* font-weight: bold; */
+}
+
+.textboxcenter {
+  justify-items: center;
+}
+
+@media (max-width: 932px) {
+  .textbox {
+      width:90%;
+  }
+}
+

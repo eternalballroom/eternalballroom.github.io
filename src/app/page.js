@@ -36,55 +36,70 @@ export default function Home() {
       <Cursor />
 
       <Header bold="home" />
-      <link  rel="icon" href="/images/chand.png" />
+      <link rel="icon" href="/images/chand.png" />
       <title>The Eternal Ballroom</title>
-      
-      
+
+
       <div className={styles.page}>
-      <Slideshow images={imagesMain2} />
-      
+        <Slideshow images={imagesMain2} />
+
         <main className={styles.main}>
-    
+
           <div className={`${styles.separator} ${styles.font_semibold}`}>𝕿𝖍𝖊 𝕰𝖙𝖊𝖗𝖓𝖆𝖑 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒</div>
 
-          
-          <center><Image
+          <div className={styles.main2}>
+
+
+            {/* <center><Image
             className={styles.logo}
             src="/next.svg"
             alt="Next.js logo"
             width={180}
             height={38}
             priority
-          /></center>
-          <ol>
-            <li>
-              This site is currently under construction as of <code>11/17/24</code>.
-            </li>
-          </ol>
+          /></center> */}
+
+            <div className={styles.textboxcenter}>
+              
+                <div className={styles.textboxbig}>
+                  Welcome,
+                </div>
+                <div className={styles.textbox}>
+                  to caretaker's portfolio.
+                </div>
+             
+              <div className={styles.textbox}>
+                This site is custom built using NextJS/React, and houses all of his creative endeavours.
+              </div>
+              <br />
+              <div className={styles.textbox}>
+                Currently under construction as of <code>11/21/24</code>
+              </div>
+            </div>
 
 
 
-          <div className={styles.buttons}>
-            <a
-              className={styles.secondary}
-              href="/about"
+            <div className={styles.buttons}>
+              <a
+                className={styles.secondary}
+                href="/about"
+                rel="noopener noreferrer"
+              >
+                About
+              </a>
+              <a
+                href="/work"
+                rel="noopener noreferrer"
+                className={styles.secondary}
+              >
+                Work
+              </a>
+            </div>
 
-              rel="noopener noreferrer"
-            >
-              About
-            </a>
-            <a
-              href="/work"
-
-              rel="noopener noreferrer"
-              className={styles.secondary}
-            >
-              Work
-            </a>
           </div>
         </main>
         <Footer />
       </div>
     </div>
   );
-  }
+}

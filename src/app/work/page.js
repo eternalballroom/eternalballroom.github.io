@@ -24,7 +24,12 @@ export default function Work() {
       <title>The Eternal Ballroom</title>
 
       <div className="mastheadcont">
-        <a className="mastheadsig"></a>
+        <a className="masthead">
+          <div className="mastheadtext">
+            Work
+          </div>
+
+        </a>
         <div className="page">
           <main className={styles.main}>
             <div className={`${styles.separator} ${styles.font_semibold}`}>𝕿𝖍𝖊 𝕰𝖙𝖊𝖗𝖓𝖆𝖑 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒</div>
@@ -120,9 +125,11 @@ export default function Work() {
 
 
           </main>
-          <Footer />
+          
         </div>
+        
       </div>
+      <Footer />
     </div >
   );
 }

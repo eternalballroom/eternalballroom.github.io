@@ -39,3 +39,13 @@ img {
   background: #78001b;
   /* #cf9a30 */
 }
+
+
+html, body, #root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+ }

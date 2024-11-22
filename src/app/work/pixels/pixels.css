@@ -1,53 +1,76 @@
-.pixelspage {
+.doublepage {
     display: flex;
     width:100%;
     justify-content: center;
 }
 
-.pixelscontainer {
+.doublecontainer {
     display: flex;
     width: auto;
     
     justify-content: center;
     padding-top: 15px;
-    gap: 50px;
+    gap: 35px;
 
     overflow: hidden;
     justify-content: center;
 }
 
-.column {
+.doublecolumn {
     overflow: hidden;
     justify-content: center;
 
 }
 
-.slideviewport {
+.doubleslideviewport {
     overflow: hidden;
     width: auto;
+    justify-content: center;
 
 }
 
+.textbox {
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    font-size: 18px;
+}
+.textboxcenter {
+    justify-items: center;
+}
+
+.customlink {
+    color: #ffa951;
+    
+    /* text-decoration-color: */
+}
+.customlink:hover{
+    text-decoration: underline;
+}
+  
+
 @media (max-width: 932px) {
-    .viewport {
+    /* .doubleslideviewport {
         width: 92.5%
-    }
+    } */
     .column {
         
     }
-    .pixelscontainer {
+    .doublecontainer {
         gap: 20px;
         display: flex;
-    flex-wrap: wrap; 
+        flex-wrap: wrap; 
         
         padding-bottom: 0px;
-    padding-top: 0px; 
-    width:92.5%;
-
-    
+        padding-top: 0px; 
+        width:92.5%;
     }
-    
-    
+    .doublepage {
+        padding-top: 5px;
+
+    }
+    .textbox {
+        width:90%;
+    }
 }
 
 /* 

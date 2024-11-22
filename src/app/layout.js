@@ -36,6 +36,12 @@ const brs  = localFont({
   weight: "100 900",
 });
 
+const london  = localFont({
+  src: "./fonts/OldLondon.woff2",
+  variable: "--font-brs",
+  weight: "100 900",
+});
+
 
 
 export const metadata = {

@@ -65,7 +65,7 @@ export default function Home() {
                   Welcome,
                 </div>
                 <div className={styles.textbox}>
-                  to caretaker's portfolio.
+                  to caretaker&apos;s portfolio.
                 </div>
              
               <div className={styles.textbox}>

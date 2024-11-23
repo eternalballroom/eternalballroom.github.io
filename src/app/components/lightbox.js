@@ -19,8 +19,8 @@ export default function LightboxW({ i }) {
   const [index, setIndex] = useState(-1);
 
   return (
-    <>
-      <RowsPhotoAlbum photos={photoz[i]} targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
+    <> {/* rowConstraints={{ minPhotos:1,maxPhotos:1 }} */}
+      <RowsPhotoAlbum photos={photoz[i]}  targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
 
       <Lightbox
         slides={photoz[i]}

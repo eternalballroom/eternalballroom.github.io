@@ -2,11 +2,13 @@ import type { Photo } from "react-photo-album";
 
 const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 
+/* [1080, 640, 384, 256, 128, 96, 64, 48] */
+
 function assetLink(asset: string, width: number) {
-  return `https://assets.react-photo-album.com/_next/image?url=${encodeURIComponent(`/_next/static/media/${asset}`)}&w=${width}&q=75`;
+  return `${asset}`;
 }
 
-const photos1 = [
+const photos0 = [
   {
     asset: "image01.018d1d35.jpg",
     width: 1080,
@@ -148,9 +150,7 @@ const photos1 = [
     }) as Photo,
 );
 
-
-
-const photos2 = [
+const photos1 = [
   {
     asset: "image20.f62571df.jpg",
     width: 1080,
@@ -178,4 +178,37 @@ const photos2 = [
     }) as Photo,
 );
 
-export default [photos1,photos2];
+const photos2 = [
+  {
+    asset: "/images/pixels/pixel1.png",
+    width: 432,
+    height: 144,
+    alt: "A sign warning people not to disturb nature",
+  },
+  {
+    asset: "/images/pixels/pixel2.png",
+    width: 432,
+    height: 144,
+    alt: "A small creek in Yosemite National Park",
+  },
+  {
+    asset: "/images/pixels/pixel3.png",
+    width: 432,
+    height: 144,
+    alt: "A small creek in Yosemite National Park",
+  },
+
+].map(
+  ({ asset, alt, width, height }) =>
+    ({
+      src: assetLink(asset, width),
+      alt,
+      width,
+      height,
+      
+    }) as Photo,
+);
+
+
+
+export default [photos0,photos1,photos2];

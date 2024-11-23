@@ -161,12 +161,14 @@
         font-size: 15px;
     }
     .textboxspaceabovebelow {
+        padding-top:0px;
         font-size: 15px;
     }
 
     .mainpix {
         display: flex;
       }
+      
 }
 
 /* 
@@ -181,7 +183,7 @@ padding-left: 160px;
     border: 3px solid #ffa951 !important;
 }
 .image-gallery-thumbnail.active {
-    border: 4px solid #ffa951 !important;
+    border: 3px solid #ffa951 !important;
 }
 
 .image-gallery-bullet:hover {

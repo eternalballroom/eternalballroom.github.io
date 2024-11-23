@@ -170,7 +170,7 @@ export default function Work() {
                             </div>
 
                             <div className="lightboxmobileviewport">
-                                <LightboxW i={0}/>
+                                <LightboxW i={2}/>
                             </div>
                         </div>
                     </main>

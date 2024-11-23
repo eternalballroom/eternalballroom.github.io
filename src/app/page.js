@@ -67,7 +67,7 @@ export default function Home() {
                 <div className={styles.textbox}>
                   to caretaker&apos;s portfolio.
                 </div>
-             
+                <br />
               <div className={styles.textbox}>
                 This site is custom built using NextJS/React and houses all of my creative endeavours.
               </div>
@@ -76,7 +76,7 @@ export default function Home() {
               </div>
               <br />
               <div className={styles.textbox}>
-                Currently under construction as of <code>11/21/24</code>
+                Currently under construction as of <code>11/23/24</code>
               </div>
             </div>
 

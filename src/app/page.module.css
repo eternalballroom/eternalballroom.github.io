@@ -37,7 +37,6 @@
   flex-direction: column;
   width:100%;
   gap: 8px;
-  
 }
 
 .main2 {
@@ -45,6 +44,7 @@
   flex-direction: column;
   width:100%;
   gap: 20px;
+  
 }
 
 .main ol {

@@ -35,6 +35,14 @@
     font-size: 18px;
 }
 
+.textboxspaceabovebelow {
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    font-size: 18px;
+    padding-top:45px;
+    padding-bottom:20px;
+}
+
 .textboxtoolstext {
     text-align: center;
     font-family: "futura-pt", sans-serif;
@@ -80,6 +88,13 @@
     max-width: 900px;
 }
 
+.mainpix {
+    display: grid;
+    flex-direction: column;
+    width:100%;
+    
+    justify-items: center;
+  }
 
 
 
@@ -93,13 +108,23 @@
     text-decoration: underline;
 }
 
+.lightboxmobileviewport {
+
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 
 @media (max-width: 932px) {
 
     /* .doubleslideviewport {
         width: 92.5%
     } */
-    .column {}
+    .lightboxmobileviewport {
+
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+    }
 
     .doublecontainer {
         gap: 20px;

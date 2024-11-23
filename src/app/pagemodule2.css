@@ -95,7 +95,9 @@
 
 .page90 {
     display:flex;
+    
     flex-direction: column;
+    justify-items: center;
     width:90%;   
     gap: 8px;
 }

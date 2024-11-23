@@ -2,18 +2,18 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    height: calc(100% + 50px);
 }
 
 .doublecontainer {
     display: flex;
     width: auto;
 
-    justify-content: center;
+    justify-items: center;
     padding-top: 15px;
     gap: 35px;
 
     overflow: hidden;
-    justify-content: center;
 }
 
 .doublecolumn {
@@ -25,7 +25,7 @@
 .doubleslideviewport {
     overflow: hidden;
     width: auto;
-    justify-items: center;
+
 
 }
 
@@ -144,6 +144,7 @@
     .textbox {
         width: 90%;
     }
+    
 
     .textboxleft {
         display: grid;
@@ -154,8 +155,18 @@
     .textboxleft2 {
         text-align: center;
         font-family: "futura-pt", sans-serif;
-        font-size: 18px;
+        font-size: 15px;
     }
+    .textbox {
+        font-size: 15px;
+    }
+    .textboxspaceabovebelow {
+        font-size: 15px;
+    }
+
+    .mainpix {
+        display: flex;
+      }
 }
 
 /* 
@@ -181,3 +192,4 @@ padding-left: 160px;
     background: #ffa951 !important;
     border: 1px solid #ffa951 !important;
 } */
+

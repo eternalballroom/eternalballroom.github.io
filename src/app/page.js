@@ -33,7 +33,6 @@ export default function Home() {
 
   return (
     <div>
-      <Cursor />
 
       <Header bold="home" />
       <link rel="icon" href="/images/chand.png" />

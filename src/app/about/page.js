@@ -19,7 +19,7 @@ import Oneko from "../components/oneko.js";
 export default function Work() {
     return (
         <div>
-            <Cursor />
+            
             <Oneko />
             <Header bold="work" />
             <link rel="icon" href="/images/chand.png" />

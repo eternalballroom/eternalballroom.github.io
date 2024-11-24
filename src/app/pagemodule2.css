@@ -124,4 +124,8 @@
     .mastheadtext {
         font-size: 35px;
     }
+    .mastheadcont {
+        padding-top: 60px;
+    
+    }
 }

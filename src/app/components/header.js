@@ -33,16 +33,16 @@ export default function Header({ bold }) {
 
       <nav className={styles.headerContainer}>
         <div className={styles.headerLeft}>
-      <Link
-      href="/">
-          <Image
-            src="/images/chand.png"
-            alt="C"
-            width={35}
-            height={35}
-          />
+          <Link
+            href="/">
+            <Image
+              src="/images/chand.png"
+              alt="C"
+              width={35}
+              height={35}
+            />
           </Link>
-          
+
         </div>
 
         <div className={styles.header}>
@@ -143,15 +143,9 @@ export default function Header({ bold }) {
             rel="noopener noreferrer"
             className={styles.colorchange}
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="50"
-              height="50"
-              size="50%"
-              fill="currentColor"
-              viewBox="-7 -7.5 40 40"
-            >
-              <path d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75Z" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-play-circle" viewBox="-7 -7 30 30">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+              <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445" />
             </svg>
           </a>
 
@@ -171,7 +165,7 @@ export default function Header({ bold }) {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.2 }}
-                className="tw-fixed tw-left-0 tw-shadow-2xl tw-right-0 tw-top-[4.25rem] tw-p-4 tw-pt-0 tw-pb-2 tw-bg-mygray tw-border-b tw-border-b-mylightgray ">
+                className="tw-fixed tw-left-0 tw-shadow-2xl tw-right-0 tw-top-[58px] tw-p-4 tw-pt-0 tw-pb-1 tw-bg-mygray tw-border-b tw-border-b-mylightgray ">
                 <ul className="tw-grid tw-gap-2">
                   <motion.li
                     initial={{ scale: 0, opacity: 0 }}
@@ -185,16 +179,20 @@ export default function Header({ bold }) {
                     <Link
 
                       className={`${styles.colorchange}
-                        ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray"}`
+                        ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-pr-5 tw-rounded-xl tw-bg-mygray"}`
                       }
                       href="/"
                     >
-                      
+
                       <span className="tw-flex tw-gap-1 ">Home</span>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" className={styles.headerimggray} width="23" height="23" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                      </svg>
                     </Link>
                   </motion.li>
 
-                  
+
 
                   <motion.li
                     initial={{ scale: 0, opacity: 0 }}
@@ -208,11 +206,14 @@ export default function Header({ bold }) {
                     <Link
                       /* onClick={() => setOpen((prev) => !prev)} */
                       className={`${styles.colorchange}
-                        ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray"}`
+                        ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-pr-5 tw-rounded-xl tw-bg-mygray"}`
                       }
                       href="/about"
                     >
                       <span className="tw-flex tw-gap-1">About</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" className={styles.headerimggray} width="25" height="25" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+</svg>
                     </Link>
                   </motion.li>
 
@@ -230,27 +231,29 @@ export default function Header({ bold }) {
                     <Link
 
                       className={`${styles.colorchange}
-                        ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-rounded-xl tw-bg-mygray"}`
+                        ${"tw-flex tw-items-center tw-justify-between tw-w-full tw-p-2 tw-pl-5 tw-pr-5 tw-rounded-xl tw-bg-mygray"}`
                       }
                       href="/work"
                     >
                       <span className="tw-flex tw-gap-1">Work</span>
 
-
+                      <svg xmlns="http://www.w3.org/2000/svg" className={styles.headerimggray} width="22" height="22" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                      <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325"/>
+</svg>
                     </Link>
 
                   </motion.li>
                 </ul>
                 {/* START OF SOCIALS */}
                 <motion.ul
-                    initial={{ scale: 0, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 260,
-                      damping: 25,
-                      delay: 0.3,
-                    }} className={"tw-flex tw-justify-between tw-w-full tw-pt-2 tw-bg-mygray"}>
+                  initial={{ scale: 0, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 260,
+                    damping: 25,
+                    delay: 0.3,
+                  }} className={"tw-flex tw-justify-between tw-w-full tw-pt-1 tw-bg-mygray"}>
                   <a className={"tw-ml-20"} />
 
                   <a
@@ -306,15 +309,9 @@ export default function Header({ bold }) {
                     rel="noopener noreferrer"
                     className={styles.colorchange}
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="50"
-                      height="50"
-                      size="50%"
-                      fill="currentColor"
-                      viewBox="-7 -7.5 40 40"
-                    >
-                      <path d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75Z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-play-circle" viewBox="-7 -7 30 30">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                      <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445" />
                     </svg>
                   </a>
 

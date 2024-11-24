@@ -17,8 +17,7 @@ import Cursor from "../components/cursor";
 export default function Work() {
   return (
     <div>
-      <Cursor />
-      
+
       <Header bold="work" />
       <link rel="icon" href="/images/chand.png" />
       <title>The Eternal Ballroom</title>

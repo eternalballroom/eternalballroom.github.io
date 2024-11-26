@@ -79,19 +79,19 @@ export default function Work() {
                   </div>
                 </a>
 
-                <a className="project-cover" href="/about">
+                <a className="project-cover" href="/work/illustration">
                   <div className="cover-content-container">
                     <div className="cover-image-wrap">
                       <div className="cover-image">
                         <div className="cover cover-normal">
-                          <Image className="cover__img" src="/images/pixelart.png" height="1500" width="1125" alt=""></Image>
+                          <Image className="cover__img" src="/images/illustration.png" height="1500" width="1125" alt=""></Image>
                         </div>
                       </div>
                     </div>
                     <div className="details-wrap">
                       <div className="details">
                         <div className="details-inner">
-                          <div className="title preserve-whitespace">pixels</div>
+                          <div className="title preserve-whitespace">illustration</div>
                         </div>
                       </div>
                     </div>

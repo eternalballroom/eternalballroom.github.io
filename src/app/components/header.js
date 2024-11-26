@@ -143,7 +143,7 @@ export default function Header({ bold }) {
             rel="noopener noreferrer"
             className={styles.colorchange}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-play-circle" viewBox="-7 -7 30 30">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="-7 -7 30 30">
               <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
               <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445" />
             </svg>
@@ -186,7 +186,7 @@ export default function Header({ bold }) {
 
                       <span className="tw-flex tw-gap-1 ">Home</span>
 
-                      <svg xmlns="http://www.w3.org/2000/svg" className={styles.headerimggray} width="23" height="23" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                      <svg xmlns="http://www.w3.org/2000/svg" className={styles.headerimggray} width="23" height="23" fill="currentColor" viewBox="0 0 16 16">
                         <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
                       </svg>
                     </Link>
@@ -211,7 +211,7 @@ export default function Header({ bold }) {
                       href="/about"
                     >
                       <span className="tw-flex tw-gap-1">About</span>
-                      <svg xmlns="http://www.w3.org/2000/svg" className={styles.headerimggray} width="25" height="25" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                      <svg xmlns="http://www.w3.org/2000/svg" className={styles.headerimggray} width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
   <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
 </svg>
                     </Link>
@@ -237,7 +237,7 @@ export default function Header({ bold }) {
                     >
                       <span className="tw-flex tw-gap-1">Work</span>
 
-                      <svg xmlns="http://www.w3.org/2000/svg" className={styles.headerimggray} width="22" height="22" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                      <svg xmlns="http://www.w3.org/2000/svg" className={styles.headerimggray} width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
                       <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325"/>
 </svg>
                     </Link>
@@ -309,7 +309,7 @@ export default function Header({ bold }) {
                     rel="noopener noreferrer"
                     className={styles.colorchange}
                   >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-play-circle" viewBox="-7 -7 30 30">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="-7 -7 30 30">
                       <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
                       <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445" />
                     </svg>

@@ -103,9 +103,12 @@ export default function Work() {
                     </div>
                 </a>
                 <div className="page">
-                    <main className="mainpix">
-                        <div className="page90">
-                            <div className={`${styles.separator} ${styles.font_semibold}`}>𝕿𝖍𝖊 𝕰𝖙𝖊𝖗𝖓𝖆𝖑 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒</div>
+                    
+                        <div className={styles.main}>
+                        <div className={`${styles.separator} ${styles.font_semibold}`}>𝕿𝖍𝖊 𝕰𝖙𝖊𝖗𝖓𝖆𝖑 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒</div>
+                        <div className="mainpix">
+                            <div className="page90">
+                            
 
                             <div className="doublepage">
                                 <div className="doublecontainer">
@@ -170,10 +173,12 @@ export default function Work() {
                             </div>
 
                             <div className="lightboxmobileviewport">
-                                <LightboxW i={2}/>
+                                <LightboxW i={0}/>
                             </div>
                         </div>
-                    </main>
+                        </div>
+                        </div>
+                    
 
                     <Footer />
                 </div>

@@ -10,8 +10,8 @@
   
   align-items: center;
   justify-items: center;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 7%;
+  padding-right: 7%;
   padding-top: 75px;
   padding-bottom: 50px;
   row-gap: 1rem;
@@ -37,6 +37,7 @@
   flex-direction: column;
   width:100%;
   gap: 8px;
+  justify-items: center;
 }
 
 .main2 {
@@ -239,6 +240,7 @@ a.secondary {
   align-items: center;
   text-align: center;
   color: #a1a1aa;
+  
 }
 
 
@@ -247,8 +249,9 @@ a.secondary {
   content: ' ';
   flex: 1;
   border-bottom: 1.6px solid #28282A;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 25px;
+  margin-left: 25px;
+  
 }
 
 .separator:not(:empty)::before {
@@ -404,6 +407,12 @@ Header
   .headerContainer {
     height: 60px;
  }
+
+ .separator::before,
+.separator::after {
+  margin-right: 5px;
+  margin-left: 5px;
+}
 }
 
 .headerRight a {

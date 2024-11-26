@@ -76,8 +76,8 @@
 
     align-items: center;
     justify-items: center;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 7%;
+    padding-right: 7%;
     padding-top: 15px;
     padding-bottom: 15px;
 
@@ -100,6 +100,7 @@
     justify-items: center;
     width:90%;   
     gap: 8px;
+    overflow: hidden;
 }
 
 

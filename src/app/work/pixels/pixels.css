@@ -16,7 +16,16 @@
     overflow: hidden;
 }
 
-.doublecolumn {
+.doublecolum.doublecontainer {
+    display: flex;
+    width: auto;
+
+    justify-items: center;
+    padding-top: 15px;
+    gap: 35px;
+
+    overflow: hidden;
+}n {
     overflow: hidden;
     justify-content: center;
 
@@ -168,7 +177,15 @@
 
     .mainpix {
         display: flex;
-      }
+    }
+
+    .kitchenchaosviewport2 {
+        max-width: 100%;
+    }
+    
+    .kitchenchaosviewport1 {
+        max-width: 100%;
+    }
       
 }
 

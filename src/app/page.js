@@ -68,14 +68,14 @@ export default function Home() {
                 </div>
                 <br />
               <div className={styles.textbox}>
-                This site is custom built using NextJS/React and houses all of my creative endeavours.
+                This site is custom built using NextJS/React, and houses all of my creative endeavours.
               </div>
               <div className={styles.textbox}>
-                It&apos;s tested for mobile, but looks best on desktop.
+                It&apos;s tested for mobile but looks best on desktop.
               </div>
               <br />
               <div className={styles.textbox}>
-                Currently under construction as of <code>11/23/24</code>
+                Currently under construction as of <code>11/26/24</code>
               </div>
             </div>
 

@@ -1,3 +1,8 @@
+@import '@vidstack/react/player/styles/default/theme.css';
+@import '@vidstack/react/player/styles/default/layouts/audio.css';
+@import '@vidstack/react/player/styles/default/layouts/video.css';
+
+
 .mainsubwork {
   display: grid;
   flex-direction: column;
@@ -29,25 +34,73 @@
 }
 
 .paddingsubwork {
-  width:90%;
+  width:75%;
+  gap:12px;
+  display:flex;
+  flex-direction: column;
 }
 
 .justifybetween {
   display:flex;
   justify-content:space-between;
+  gap:12px;
+  align-items: center;
 }
 
-
-video {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
+.videoviewport {
+  aspect-ratio: 1 / 1;
+  display:flex;
+  justify-content:center;
+  width:auto;
+  max-width: 350px;
 }
+
+.textboxdisappear {
+  display: grid;
+  gap: 5px;
+  text-align: center;
+  font-family: "futura-pt", sans-serif;
+  font-size: 18px;
+  max-width: 500px;
+}
+
+.textboxreappear {
+  gap: 5px;
+  display: none;
+  text-align: center;
+  font-family: "futura-pt", sans-serif;
+  font-size: 18px;
+  
+}
+
+.textboxtoolstext {
+  text-align: center;
+  font-family: "futura-pt", sans-serif;
+  font-size: 16px;
+}
+
+.textboxtoolsimg {
+  display: flex;
+  color: #a1a1aa;
+  /* :not(:last-of-type) */
+  padding-bottom: 20px;
+}
+
+.textboxtoolswrap {
+  display: flex;
+  
+  justify-content: center;
+}
+
+.customlink {
+  color: #ffa951;
+}
+
 
 
 @media (max-width: 932px) {
   .pagesubwork {
-    padding-bottom: 80px;
+    padding-bottom: 15px;
     padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
@@ -62,12 +115,25 @@ video {
 
 .paddingsubwork {
   width:92.5%;
+  
 }
 
 .mainsubwork{
-
   padding-top:5px;
 }
 
+.justifybetween {
+  flex-wrap: wrap;
+  justify-content:center;
 }
 
+.textboxdisappear {
+  display:none;
+}
+
+.textboxreappear {
+  display:flex;
+  flex-direction: column;
+}
+
+}

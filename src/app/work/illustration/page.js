@@ -47,9 +47,9 @@ export default function Work() {
                                     </video> */}
 
                                     <div className="videoviewport">
-                                        <MediaPlayer playsInline aspectRatio="1/1" title="Sprite Fight" src="/images/illustration/sunsetvid.mp4">
+                                        <MediaPlayer playsInline aspectRatio="1/1" title="Goodbye to a World - Porter Robinson" src="/images/illustration/sunsetvid.mp4">
                                             <MediaProvider />
-                                            <DefaultVideoLayout thumbnails="https://files.vidstack.io/sprite-fight/thumbnails.vtt" icons={defaultLayoutIcons} />
+                                            <DefaultVideoLayout icons={defaultLayoutIcons} />
                                         </MediaPlayer>
                                     </div>
                                     <div className="textboxdisappear">
@@ -70,9 +70,9 @@ export default function Work() {
                                         </div>
                                     </div>
                                     <div className="videoviewport">
-                                        <MediaPlayer playsInline aspectRatio="1/1" title="Sprite Fight" src="/images/illustration/purplevid.mp4">
+                                        <MediaPlayer playsInline aspectRatio="1/1" title="Touch - Daft Punk" src="/images/illustration/purplevid.mp4">
                                             <MediaProvider />
-                                            <DefaultVideoLayout thumbnails="https://files.vidstack.io/sprite-fight/thumbnails.vtt" icons={defaultLayoutIcons} />
+                                            <DefaultVideoLayout icons={defaultLayoutIcons} />
                                         </MediaPlayer>
                                     </div>
 

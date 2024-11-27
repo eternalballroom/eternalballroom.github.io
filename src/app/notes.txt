@@ -15,3 +15,15 @@ collection pixel bottom smaller
 ---
 11/26/24
 add font nmc to pixels
+
+---
+11/27/24
+
+vid desc on illus - DONE
+illus too blocky. use justifybetween and split banner to 3, with vid in middle instead of center img
+lang translation fix - DONE? check
+1 more i forgot
+vid thumb?
+<DefaultVideoLayout thumbnails="https://files.vidstack.io/sprite-fight/thumbnails.vtt" icons={defaultLayoutIcons} />
+
+still make footer to socials

@@ -26,6 +26,9 @@
     background-color: rgb(0, 255, 98);
 } 
 */
+.notranslate {
+  translate: none;
+}
 
 .project-covers {
     display: flex;

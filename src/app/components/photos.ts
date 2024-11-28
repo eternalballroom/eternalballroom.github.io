@@ -65,6 +65,7 @@ const photos0 = [
     height: 288,
 
   },
+  
 ].map(
   ({ asset, width, height }) =>
     ({
@@ -78,16 +79,10 @@ const photos0 = [
 
 // illustration
 
-const photos1 = [
+const sunset1 = [
   {
-    asset: "/images/illustration/lbsunset.png",
-    width: 3240,
-    height: 1080,
-
-  },
-  {
-    asset: "/images/illustration/lbpurple.png",
-    width: 3240,
+    asset: "/images/illustration/lbsunset1.png",
+    width: 1080,
     height: 1080,
 
   },
@@ -101,4 +96,22 @@ const photos1 = [
     }) as Photo,
 );
 
-export default [photos0,photos1];
+const sunset3 = [
+  {
+    asset: "/images/illustration/lbsunset3.png",
+    width: 1080,
+    height: 1080,
+
+  },
+].map(
+  ({ asset, width, height }) =>
+    ({
+      src: assetLink(asset, width),
+      width,
+      height,
+      
+    }) as Photo,
+);
+
+
+export default [photos0,sunset1,sunset3];

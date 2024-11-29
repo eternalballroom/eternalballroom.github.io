@@ -27,3 +27,8 @@ vid thumb?
 <DefaultVideoLayout thumbnails="https://files.vidstack.io/sprite-fight/thumbnails.vtt" icons={defaultLayoutIcons} />
 
 still make footer to socials
+
+---
+11/29/24
+
+vid thumbs in illus

@@ -75,7 +75,7 @@ export default function Home() {
               </div>
               <br />
               <div className={styles.textbox}>
-                Currently under construction as of <code>11/26/24</code>
+                Currently under construction as of <code>11/29/24</code>
               </div>
             </div>
 
@@ -100,7 +100,9 @@ export default function Home() {
 
           </div>
         </main>
+        <div className={styles.fixedfooter}>
         <Footer />
+        </div>
       </div>
     </div>
   );

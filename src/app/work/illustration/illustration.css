@@ -118,7 +118,6 @@
 
 .textboxtoolswrap {
   display: flex;
-  
   justify-content: center;
 }
 
@@ -146,7 +145,7 @@
 
 @media (max-width: 932px) {
   .pagesubwork {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;

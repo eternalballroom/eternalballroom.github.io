@@ -164,7 +164,7 @@ export default function Work() {
                                 <div className="textboxtoolswrap">
                                     <div className="textboxsmall">
                                         <div>
-                                            Drawings that I decided animated for Instagram. The first two are album covers, while the latter two are part of a bigger split-screen.
+                                            Drawings that I animated for Instagram. The first two are album covers, while the latter two are part of a bigger split-screen.
                                         </div>
 
                                         <div className="textboxtoolswrap">
@@ -180,23 +180,10 @@ export default function Work() {
 
                                 <div className="textboxspaceabovebelow">An assortment of random illustrations I&apos;ve done over the years, ordered roughly from newest to oldest (2016).
                                 </div>
-
-
-
-
-
                                 <LightboxW i={3} w={260} />
-
-
-
                             </div>
-
                         </div>
-
-
-
                     </div>
-
                     <Footer />
                 </div>
             </div>

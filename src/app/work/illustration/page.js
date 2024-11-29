@@ -178,7 +178,7 @@ export default function Work() {
                                     </div>
                                 </div>
 
-                                <div className="textboxspaceabovebelow">An assortment of random illustrations I've done over the years, ordered roughly from newest to oldest (2016).
+                                <div className="textboxspaceabovebelow">An assortment of random illustrations I&apos;ve done over the years, ordered roughly from newest to oldest (2016).
                                 </div>
 
 

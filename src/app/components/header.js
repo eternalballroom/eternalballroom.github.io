@@ -138,7 +138,7 @@ export default function Header({ bold }) {
             </svg>
           </a>
           <a
-            href="https://github.com/eternalballroom"
+            href="https://www.youtube.com/channel/UCjM7V493PqWzHco7RJ_snUw"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.colorchange}
@@ -304,7 +304,7 @@ export default function Header({ bold }) {
                     </svg>
                   </a>
                   <a
-                    href="https://github.com/eternalballroom"
+                    href="https://www.youtube.com/channel/UCjM7V493PqWzHco7RJ_snUw"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.colorchange}

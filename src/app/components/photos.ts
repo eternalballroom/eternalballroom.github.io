@@ -113,5 +113,60 @@ const sunset3 = [
     }) as Photo,
 );
 
+const illustration1 = [
+  {
+    asset: "/images/illustration/lb1.png",
+    width: 1920,
+    height: 2500,
+  },
+  {
+    asset: "/images/illustration/lb2.png",
+    width: 1500,
+    height: 2164,
+  },
+  {
+    asset: "/images/illustration/lb3.png",
+    width: 1500,
+    height: 2164,
+  },
+  {
+    asset: "/images/illustration/lb4.png",
+    width: 2200,
+    height: 1700,
+  },
+  {
+    asset: "/images/illustration/lb5.png",
+    width: 6600,
+    height: 5100,
+  },
+  {
+    asset: "/images/illustration/lb6.png",
+    width: 1365,
+    height: 2385,
+  },
+  {
+    asset: "/images/illustration/lb7.png",
+    width: 2817,
+    height: 5193,
+  },
+  {
+    asset: "/images/illustration/lb8.png",
+    width: 1904,
+    height: 1832,
+  },
+  
 
-export default [photos0,sunset1,sunset3];
+  //
+
+].map(
+  ({ asset, width, height }) =>
+    ({
+      src: assetLink(asset, width),
+      width,
+      height,
+      
+    }) as Photo,
+);
+
+
+export default [photos0,sunset1,sunset3,illustration1];

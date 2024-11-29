@@ -103,82 +103,81 @@ export default function Work() {
                     </div>
                 </a>
                 <div className="page">
-                    
-                        <div className={styles.main}>
+                    <div className={styles.main}>
                         <div className={`${styles.separator} ${styles.font_semibold}`}>𝕿𝖍𝖊 𝕰𝖙𝖊𝖗𝖓𝖆𝖑 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒</div>
                         <div className="mainpix">
                             <div className="page90">
-                            
-
-                            <div className="doublepage">
-                                <div className="doublecontainer">
-                                    <div className="doubleslideviewport">
-                                        <ImageGallery showNav={false} showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images1} />
-                                        {/* showBullets={true} showNav isRTL={true} */}
-                                    </div>
-                                    <div className="doubleslideviewport">
-                                        <ImageGallery showNav={false} showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images2} />
-                                    </div>
-                                </div>
-                            </div>
 
 
-                            <div className="textboxcenter">
-                                <div className="textbox">Commissioned pixel art banners for NameMC profiles. Artwork is split between 26 Minecraft skin heads, rendering a display as shown on this profile:&nbsp;
-                                    <a className="customlink" href="https://namemc.com/profile/Chu.5" target="_blank">Chu</a>
-                                </div>
-                                <div className="textboxtoolswrap">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-hammer" viewBox="0 -3 20 20">
-                                        <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5 5 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334" />
-                                    </svg>
-                                    <div className="textboxtoolstext">Asperite, Paint Tool SAI</div>
-                                </div>
-                            </div>
-
-                            <div className="doublepage">
-                                <div className="doublecontainer">
-                                    <div className="doubleslideviewport">
-                                        <div className="kitchenchaosviewport1">
-                                            {/* <img src="/images/pixels/kitchenchaos2.png" width="2000" height="1080" alt="" /> */}
-                                            <ImageGallery infinite={false} showBullets={true} showPlayButton={false} showThumbnails={false} showFullscreenButton={false} autoPlay={false} slideInterval={3000} slideDuration={700} showNav={true} items={images4} />
-                                            {/* showBullets={true} showNav*/}
+                                <div className="doublepage">
+                                    <div className="doublecontainer">
+                                        <div className="doubleslideviewport">
+                                            <ImageGallery showNav={false} showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images1} />
+                                            {/* showBullets={true} showNav isRTL={true} */}
+                                        </div>
+                                        <div className="doubleslideviewport">
+                                            <ImageGallery showNav={false} showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images2} />
                                         </div>
                                     </div>
-                                    <div className="doubleslideviewport">
-                                        <div className="kitchenchaosviewport2">
-                                            <ImageGallery infinite={false} showBullets={true} showPlayButton={false} showThumbnails={false} showFullscreenButton={false} autoPlay={false} slideInterval={3000} slideDuration={700} showNav={true} items={images3} />
-                                            <div className="textboxleft">
-                                                <div className="textboxleft2">Pixel art done for a 48-hour UCSD game jam. The food and some background assets were taken from asset packs, and the knife/picnic basket are references to OMORI. The game, though unfinished, can be played&nbsp;
-                                                    <a className="customlink" href="https://argro.itch.io/game-jam-fall-22-ucsd-kitchen-chaos" target="_blank">here</a>.
+                                </div>
+
+
+                                <div className="textboxcenter">
+                                    <div className="textbox">Commissioned pixel art banners for NameMC profiles. Artwork is split between 26 Minecraft skin heads, rendering a display as shown on this profile:&nbsp;
+                                        <a className="customlink" href="https://namemc.com/profile/Chu.5" target="_blank">Chu</a>
+                                    </div>
+                                    <div className="textboxtoolswrap">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-hammer" viewBox="0 -3 20 20">
+                                            <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5 5 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334" />
+                                        </svg>
+                                        <div className="textboxtoolstext">Asperite, Paint Tool SAI</div>
+                                    </div>
+                                </div>
+
+                                <div className="doublepage">
+                                    <div className="doublecontainer">
+                                        <div className="doubleslideviewport">
+                                            <div className="kitchenchaosviewport1">
+                                                {/* <img src="/images/pixels/kitchenchaos2.png" width="2000" height="1080" alt="" /> */}
+                                                <ImageGallery infinite={false} showBullets={true} showPlayButton={false} showThumbnails={false} showFullscreenButton={false} autoPlay={false} slideInterval={3000} slideDuration={700} showNav={true} items={images4} />
+                                                {/* showBullets={true} showNav*/}
+                                            </div>
+                                        </div>
+                                        <div className="doubleslideviewport">
+                                            <div className="kitchenchaosviewport2">
+                                                <ImageGallery infinite={false} showBullets={true} showPlayButton={false} showThumbnails={false} showFullscreenButton={false} autoPlay={false} slideInterval={3000} slideDuration={700} showNav={true} items={images3} />
+                                                <div className="textboxleft">
+                                                    <div className="textboxleft2">Pixel art done for a 48-hour UCSD game jam. The food and some background assets were taken from asset packs, and the knife/picnic basket are references to OMORI. The game, though unfinished, can be played&nbsp;
+                                                        <a className="customlink" href="https://argro.itch.io/game-jam-fall-22-ucsd-kitchen-chaos" target="_blank">here</a>.
+                                                    </div>
+                                                    <div className="textboxtoolswrap">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-hammer" viewBox="0 -3 20 20">
+                                                            <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5 5 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334" />
+                                                        </svg>
+                                                        <div className="textboxtoolstext">Asperite, Paint Tool SAI</div>
+                                                    </div>
                                                 </div>
-                                                <div className="textboxtoolswrap">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-hammer" viewBox="0 -3 20 20">
-                                                        <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5 5 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334" />
-                                                    </svg>
-                                                    <div className="textboxtoolstext">Asperite, Paint Tool SAI</div>
-                                                </div>
+
+
                                             </div>
 
 
+
                                         </div>
-
-
-
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className="textboxspaceabovebelow">A collection of miscellaneous pixel arts and more NameMCs.
+                                <div className="textboxspaceabovebelow">A collection of miscellaneous pixel arts and more NameMCs.
+
+                                </div>
+
+                              
+                                    <LightboxW i={0} w={150}/>
                                 
                             </div>
+                        </div>
+                    </div>
 
-                            <div className="lightboxmobileviewport">
-                                <LightboxW i={0}/>
-                            </div>
-                        </div>
-                        </div>
-                        </div>
-                    
 
                     <Footer />
                 </div>

@@ -81,14 +81,14 @@
     padding-top: 15px;
     padding-bottom: 15px;
 
-    row-gap: 1rem;
+    
     font-family: var(--font-geist-sans);
 
     /* main */
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 16px;
+    gap: 0px;
 
 
 }

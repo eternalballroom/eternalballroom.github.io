@@ -41,6 +41,7 @@ export default function Work() {
             <Image className="workone" src="/images/pixelart.png" width="400" height="300" alt=""></Image> */}
 
               <section className="project-covers">
+
                 <a className="project-cover" href="/work/pixels">
                   <div className="cover-content-container">
                     <div className="cover-image-wrap">
@@ -60,25 +61,6 @@ export default function Work() {
                   </div>
                 </a>
 
-                <a className="project-cover" href="/about">
-                  <div className="cover-content-container">
-                    <div className="cover-image-wrap">
-                      <div className="cover-image">
-                        <div className="cover cover-normal">
-                          <Image className="cover__img" src="/images/cooking.png" height="1500" width="1125" alt=""></Image>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="details-wrap">
-                      <div className="details">
-                        <div className="details-inner">
-                          <div className="title preserve-whitespace">cooking</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-
                 <a className="project-cover" href="/work/illustration">
                   <div className="cover-content-container">
                     <div className="cover-image-wrap">
@@ -92,6 +74,25 @@ export default function Work() {
                       <div className="details">
                         <div className="details-inner">
                           <div className="title preserve-whitespace">illustration</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a className="project-cover" href="/about">
+                  <div className="cover-content-container">
+                    <div className="cover-image-wrap">
+                      <div className="cover-image">
+                        <div className="cover cover-normal">
+                          <Image className="cover__img" src="/images/cooking.png" height="1500" width="1125" alt=""></Image>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="details-wrap">
+                      <div className="details">
+                        <div className="details-inner">
+                          <div className="title preserve-whitespace">cooking</div>
                         </div>
                       </div>
                     </div>
@@ -126,9 +127,9 @@ export default function Work() {
           </main>
           <Footer />
         </div>
-        
+
       </div>
-      
+
     </div >
   );
 }

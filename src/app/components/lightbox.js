@@ -15,12 +15,12 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 import photoz from "./photos";
 
-export default function LightboxW({ i }) {
+export default function LightboxW({ i,w }) {
   const [index, setIndex] = useState(-1);
 
   return (
     <> {/* rowConstraints={{ minPhotos:1,maxPhotos:1 }} */}
-      <RowsPhotoAlbum photos={photoz[i]}  targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
+      <RowsPhotoAlbum photos={photoz[i]} targetRowHeight={[w]} onClick={({ index }) => setIndex(index)} />
 
       <Lightbox
         slides={photoz[i]}

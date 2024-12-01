@@ -45,11 +45,11 @@ export default function Cooking() {
             original: "/images/cooking/fd13.jpg",
             thumbnail: "/images/cooking/fd13.jpg",
         },
-        
+
     ]
     const Embel2 = () => (
         <div className="embelviewport">
-            
+
             <Embel className="gold" />
         </div>
     )
@@ -77,14 +77,14 @@ export default function Cooking() {
                                         <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={true} showFullscreenButton={false} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd1} />
                                     </div>
                                     <div className="textboxviewport">
-                                    <div className="bigfattitle">
-fine dining 1
-                                    </div>
+                                        <div className="bigfattitle">
+                                            fine dining 1
+                                        </div>
 
                                         <div className="textboxtitle">
                                             My first attempt at cooking with a focus on presentation. In order of pictures:
                                         </div>
-                                     
+
 
 
                                         <div className="textboxwrap">

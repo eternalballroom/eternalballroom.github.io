@@ -129,6 +129,8 @@ a.secondary {
   padding-top: 15px;
   grid-row-start: 3;
   align-items: center;
+  justify-content: center;
+  justify-items:center;
   display: flex;
   gap: 24px;
   color: #a1a1aa;

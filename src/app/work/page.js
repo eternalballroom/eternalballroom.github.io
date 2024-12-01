@@ -80,7 +80,7 @@ export default function Work() {
                   </div>
                 </a>
 
-                <a className="project-cover" href="/about">
+                <a className="project-cover" href="/work/cooking">
                   <div className="cover-content-container">
                     <div className="cover-image-wrap">
                       <div className="cover-image">

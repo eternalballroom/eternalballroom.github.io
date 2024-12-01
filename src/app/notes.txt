@@ -1,22 +1,14 @@
-X change favicon octehedral border bg
-sizes of txt vs img in header?
-top left img to return home
+
+11/30/24
+
 
 ---
 
-footer to socials (after all socials decided) (remove underline)
-footer font
+11/29/24
 
+vid thumbs in illus
 ---
 
-mobile header smaller
-collection pixel bottom smaller
-
----
-11/26/24
-add font nmc to pixels
-
----
 11/27/24
 
 vid desc on illus - DONE
@@ -27,8 +19,23 @@ vid thumb?
 <DefaultVideoLayout thumbnails="https://files.vidstack.io/sprite-fight/thumbnails.vtt" icons={defaultLayoutIcons} />
 
 still make footer to socials
+11/26/24
+add font nmc to pixels
 
 ---
-11/29/24
 
-vid thumbs in illus
+mobile header smaller
+collection pixel bottom smaller
+
+---
+
+footer to socials (after all socials decided) (remove underline)
+footer font
+
+---
+
+X change favicon octehedral border bg
+sizes of txt vs img in header?
+top left img to return home
+
+

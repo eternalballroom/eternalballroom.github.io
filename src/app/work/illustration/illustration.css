@@ -124,6 +124,9 @@
 .customlink {
   color: #ffa951;
 }
+.customlink:hover {
+  text-decoration: underline;
+}
 
 
 .pagewrap.img {

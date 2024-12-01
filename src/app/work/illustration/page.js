@@ -90,8 +90,8 @@ export default function Work() {
                                     <div className="textboxsmall">
                                         <div>
                                             3240 x 1080px banners done for&nbsp;
-                                            <a className="customlink" href="https://www.instagram.com/shirtpillowcase/" target="_blank">Instagram </a>
-                                            split-screen posts. Each banner is split between three 1080 x 1080px images, with the center image being animated.
+                                            <a className="customlink" href="https://www.instagram.com/shirtpillowcase/" target="_blank">Instagram</a>
+                                            &nbsp;split-screen posts. Each banner is split between three 1080 x 1080px images, with the center image being animated.
                                             {/* The original video files were unfortunately lost, leading to these being blurry after being downloaded from Instagram. */}
                                         </div>
 

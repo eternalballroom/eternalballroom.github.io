@@ -47,11 +47,38 @@ export default function Cooking() {
         },
 
     ]
-    const Embel2 = () => (
-        <div className="embelviewport">
+    const fd2 = [
+        {
+            original: "/images/cooking/fd21.jpg",
+            thumbnail: "/images/cooking/fd21.jpg",
+        },
+        {
+            original: "/images/cooking/fd22.jpg",
+            thumbnail: "/images/cooking/fd22.jpg",
+        },
+        {
+            original: "/images/cooking/fd23.jpg",
+            thumbnail: "/images/cooking/fd23.jpg",
+        },
 
+    ]
+    const fd3 = [
+        {
+            original: "/images/cooking/fd31.jpg",
+            thumbnail: "/images/cooking/fd31.jpg",
+        },
+        {
+            original: "/images/cooking/fd32.jpg",
+            thumbnail: "/images/cooking/fd32.jpg",
+        },
+
+    ]
+    const Embel2 = () => (
+        
+        <div className="embelviewport">
             <Embel className="gold" />
         </div>
+        
     )
 
 
@@ -72,9 +99,11 @@ export default function Cooking() {
 
                         <div className="mainsubwork">
                             <div className="paddingsubwork">
-                                <div className="doublecontainer">
+
+                                
+                                <div className="doublecontainerfirst">
                                     <div className="slideshowviewport">
-                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={true} showFullscreenButton={false} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd1} />
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={false} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd1} />
                                     </div>
                                     <div className="textboxviewport">
                                         <div className="bigfattitle">
@@ -120,22 +149,202 @@ export default function Cooking() {
                                         <Embel2 />
                                         <div className="textboxwrap">
                                             <div className="textboxunderline">
+                                                Dessert
+                                            </div>
+                                            <div className="textbox">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <div className="recipe" >
+                                                No recipe
+                                            </div>
+                                        </div>
+                                        <div className="textbox">
+                                            Sugar cookie crumble with strawberries and grenadine syrup
+                                        </div>
+                                        <Embel2 />
+                                        <div className="textboxwrap">
+                                            <div className="textboxunderline">
+                                                Drink
+                                            </div>
+                                            <div className="textbox">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <div className="recipe" >
+                                                No recipe
+                                            </div>
+                                        </div>
+                                        <div className="textbox">
+                                            Melon cream soda
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="doublecontainer">  
+                                <div className="slideshowviewportrightmob">
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={false} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd2} />
+                                    </div>
+
+                                    <div className="textboxviewport">
+                                        <div className="bigfattitleright">
+                                            fine dining 2
+                                        </div>
+                                        <div className="textboxtitleright">
+                                            My second attempt. Started feeling a lot more confident in the kitchen..
+                                        </div>
+                                        <div className="textboxwrapright">
+                                            <div className="textboxunderline">
+                                                Appetizer
+                                            </div>
+                                            <div className="textboxright">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <a className="recipe" href="https://www.instagram.com/p/C9aNNr_PRnX/" target="_blank">
+                                                [Recipe]
+                                            </a>
+                                        </div>
+                                        <div className="textboxright">
+                                            Sourdough bruschetta & ricotta toast, topped with fresh basil
+                                        </div>
+                                        <div className="embelviewportright">
+                                        <Embel2 />
+                                        </div>
+                                        <div className="textboxwrapright">
+                                            <div className="textboxunderline">
+                                                Entree
+                                            </div>
+                                            <div className="textboxright">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <a className="recipe" href="https://www.instagram.com/p/C-f0KW7NkrJ/" target="_blank">
+                                                [Recipe]
+                                            </a>
+                                        </div>
+                                        <div className="textboxright">
+                                            Creamy garlic pasta with baby shrimp
+                                        </div>
+                                        <div className="embelviewportright">
+                                        <Embel2 />
+                                        </div>
+                                        <div className="textboxwrapright">
+                                            <div className="textboxunderline">
+                                                Dessert
+                                            </div>
+                                            <div className="textboxright">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <div className="recipe" >
+                                                No recipe
+                                            </div>
+                                        </div>
+                                        <div className="textboxright">
+                                            Yellow sweet rice chicks with carrot beaks and black pepper eyes
+                                        </div>
+                                        <div className="embelviewportright">
+                                        <Embel2 />
+                                        </div>
+                                        <div className="textboxwrapright">
+                                            <div className="textboxunderline">
+                                                Drink
+                                            </div>
+                                            <div className="textboxright">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <div className="recipe" >
+                                                No recipe
+                                            </div>
+                                        </div>
+                                        <div className="textboxright">
+                                            Strawberry syrup & sparkling water
+                                        </div>
+                                    </div>
+                                    <div className="slideshowviewportrightpc">
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={false} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd2} />
+                                    </div>
+                                </div>
+
+
+                                <div className="doublecontainer">
+                                    <div className="slideshowviewport">
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={false} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd3} />
+                                    </div>
+                                    <div className="textboxviewport">
+                                        <div className="bigfattitle">
+                                            fine dining 3
+                                        </div>
+
+                                        <div className="textboxtitle">
+                                            Third, for friendsgiving:
+                                        </div>
+
+
+
+                                        <div className="textboxwrap">
+                                            <div className="textboxunderline">
+                                                Appetizer
+                                            </div>
+                                            <div className="textbox">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <a className="recipe" href="https://playswellwithbutter.com/spicy-ahi-tuna-tostadas/" target="_blank">
+                                                [Recipe]
+                                            </a>
+                                        </div>
+                                        <div className="textbox">
+                                            Spicy ahi tuna tostadas on an avocado base, garnished with cilantro and spring onion
+                                        </div>
+                                        <Embel2 />
+                                        <div className="textboxwrap">
+                                            <div className="textboxunderline">
                                                 Entree
                                             </div>
                                             <div className="textbox">
                                                 &nbsp;-&nbsp;
                                             </div>
-                                            <a className="recipe" href="https://cookniche.com/Recipe.aspx?name=PhilClark&IDservice=1188" target="_blank">
-                                                No recipe
+                                            <a className="recipe" href="https://eaters-manifesto.com/2018/09/16/pork-belly-and-caviar/" target="_blank">
+                                                [Recipe]
                                             </a>
                                         </div>
                                         <div className="textbox">
-                                            Sugar cookie crumble with strawberries and grenadine syrup
+                                            Pork belly and caviar, served with a side of mashed potatoes and smoked trout cream
                                         </div>
 
+                                        <Embel2 />
+                                        <div className="textboxwrap">
+                                            <div className="textboxunderline">
+                                                Dessert
+                                            </div>
+                                            <div className="textbox">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <div className="recipe" >
+                                                No recipe
+                                            </div>
+                                        </div>
+                                        <div className="textbox">
+                                            Ghirardellis lol
+                                        </div>
 
+                                        <Embel2 />
+                                        <div className="textboxwrap">
+                                            <div className="textboxunderline">
+                                                Drink
+                                            </div>
+                                            <div className="textbox">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <a className="recipe" href="https://www.instagram.com/p/DCXLcFQSLhX/" target="_blank">
+                                                [Recipe]
+                                            </a>
+                                        </div>
+                                        <div className="textbox">
+                                            Gin & tonic snowglobe cocktail with rosemary garnish
+                                        </div>
                                     </div>
                                 </div>
+
+
+
                             </div>
                         </div>
                     </div>

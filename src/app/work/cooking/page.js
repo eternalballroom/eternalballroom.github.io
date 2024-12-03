@@ -74,11 +74,11 @@ export default function Cooking() {
 
     ]
     const Embel2 = () => (
-        
+
         <div className="embelviewport">
             <Embel className="gold" />
         </div>
-        
+
     )
 
 
@@ -90,7 +90,7 @@ export default function Cooking() {
             <title>The Eternal Ballroom</title>
             <div className="mastheadcont">
                 <a className="masthead">
-                    <div className="mastheadtext">Illustration</div>
+                    <div className="mastheadtext">Cooking</div>
                 </a>
 
                 <div className="pagesubwork">
@@ -100,10 +100,10 @@ export default function Cooking() {
                         <div className="mainsubwork">
                             <div className="paddingsubwork">
 
-                                
+
                                 <div className="doublecontainerfirst">
                                     <div className="slideshowviewport">
-                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={false} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd1} />
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={true} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd1} />
                                     </div>
                                     <div className="textboxviewport">
                                         <div className="bigfattitle">
@@ -180,9 +180,9 @@ export default function Cooking() {
                                 </div>
 
 
-                                <div className="doublecontainer">  
-                                <div className="slideshowviewportrightmob">
-                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={false} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd2} />
+                                <div className="doublecontainer">
+                                    <div className="slideshowviewportrightmob">
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={true} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd2} />
                                     </div>
 
                                     <div className="textboxviewport">
@@ -190,7 +190,7 @@ export default function Cooking() {
                                             fine dining 2
                                         </div>
                                         <div className="textboxtitleright">
-                                            My second attempt. Started feeling a lot more confident in the kitchen..
+                                            My second attempt, for an anniversary:
                                         </div>
                                         <div className="textboxwrapright">
                                             <div className="textboxunderline">
@@ -207,7 +207,7 @@ export default function Cooking() {
                                             Sourdough bruschetta & ricotta toast, topped with fresh basil
                                         </div>
                                         <div className="embelviewportright">
-                                        <Embel2 />
+                                            <Embel2 />
                                         </div>
                                         <div className="textboxwrapright">
                                             <div className="textboxunderline">
@@ -224,7 +224,7 @@ export default function Cooking() {
                                             Creamy garlic pasta with baby shrimp
                                         </div>
                                         <div className="embelviewportright">
-                                        <Embel2 />
+                                            <Embel2 />
                                         </div>
                                         <div className="textboxwrapright">
                                             <div className="textboxunderline">
@@ -241,7 +241,7 @@ export default function Cooking() {
                                             Yellow sweet rice chicks with carrot beaks and black pepper eyes
                                         </div>
                                         <div className="embelviewportright">
-                                        <Embel2 />
+                                            <Embel2 />
                                         </div>
                                         <div className="textboxwrapright">
                                             <div className="textboxunderline">
@@ -259,14 +259,14 @@ export default function Cooking() {
                                         </div>
                                     </div>
                                     <div className="slideshowviewportrightpc">
-                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={false} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd2} />
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={true} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd2} />
                                     </div>
                                 </div>
 
 
                                 <div className="doublecontainer">
                                     <div className="slideshowviewport">
-                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={false} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd3} />
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={true} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd3} />
                                     </div>
                                     <div className="textboxviewport">
                                         <div className="bigfattitle">
@@ -342,6 +342,22 @@ export default function Cooking() {
                                         </div>
                                     </div>
                                 </div>
+
+                                <div className="videowrap">
+                                    <div className="videoviewport">
+                                        <MediaPlayer playsInline aspectRatio="9/16" title="Goodbye to a World - Porter Robinson" src="/images/cooking/fd33.mp4">
+                                            <MediaProvider>
+                                                <Poster
+                                                    className="vds-poster"
+                                                    src=""
+
+                                                />
+                                            </MediaProvider>
+                                            <DefaultVideoLayout icons={defaultLayoutIcons} />
+                                        </MediaPlayer>
+                                    </div>
+                                </div>
+
 
 
 

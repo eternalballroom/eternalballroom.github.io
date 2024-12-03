@@ -242,6 +242,21 @@
     padding-bottom:5px;
 }
 
+.videowrap {
+    
+    /* z-index: -1; */
+    margin-top: -555px;
+    margin-bottom: 155px;
+    display:flex;
+    justify-content: right;
+
+}
+
+.videoviewport {
+    width:225px;
+
+}
+
 
 .image-gallery-thumbnail {
     border: 4px solid #ff515100 !important;
@@ -397,6 +412,19 @@
         padding-bottom: 10px;
         min-width: 135px;
         min-height: 13.5px;
+    }
+
+    .videowrap {
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        
+    
+    }
+    
+    .videoviewport {
+        width:50%;
+    
     }
 
 

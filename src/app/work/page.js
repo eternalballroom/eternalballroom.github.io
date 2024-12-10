@@ -99,7 +99,7 @@ export default function Work() {
                   </div>
                 </a>
 
-                <a className="project-cover" href="/about">
+                <a className="project-cover" href="/work/performance">
                   <div className="cover-content-container">
                     <div className="cover-image-wrap">
                       <div className="cover-image">
@@ -111,13 +111,31 @@ export default function Work() {
                     <div className="details-wrap">
                       <div className="details">
                         <div className="details-inner">
-                          <div className="title preserve-whitespace">pixels</div>
+                          <div className="title preserve-whitespace">performance</div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </a>
 
+                <a className="project-cover" href="/work/misc">
+                  <div className="cover-content-container">
+                    <div className="cover-image-wrap">
+                      <div className="cover-image">
+                        <div className="cover cover-normal">
+                          <Image className="cover__img" src="/images/pixelart.png" height="1500" width="1125" alt=""></Image>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="details-wrap">
+                      <div className="details">
+                        <div className="details-inner">
+                          <div className="title preserve-whitespace">misc</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
 
               </section>
             </div>

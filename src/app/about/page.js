@@ -52,7 +52,7 @@ export default function Work() {
                                 <div className="text">caretaker is a korean-taiwanese illustrator based</div>
                                 <div className="text">in california, who enjoys creating works to inspire others. </div>
                                 <div className="stars">✧ &nbsp;✧&nbsp;&nbsp;✧</div>
-                                <div className="text">he studies chemistry at ucsc by day and drinks beer by night. and sometimes likes to make things.</div>
+                                <div className="text">he studies chemistry at ucsc by day and drinks milkis by night. and sometimes likes to make things.</div>
                                 <div className="stars">✧ &nbsp;✧&nbsp;&nbsp;✧</div>
                                 <div className="handwriting">다람쥐도토리뺏기!?</div>
 

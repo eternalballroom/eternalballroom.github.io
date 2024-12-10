@@ -345,7 +345,7 @@ export default function Cooking() {
 
                                 <div className="videowrap">
                                     <div className="videoviewport">
-                                        <MediaPlayer playsInline aspectRatio="9/16" title="Goodbye to a World - Porter Robinson" src="/images/cooking/fd33.mp4">
+                                        <MediaPlayer playsInline aspectRatio="9/16" title="Snowglobe" src="/images/cooking/fd33.mp4">
                                             <MediaProvider>
                                                 <Poster
                                                     className="vds-poster"

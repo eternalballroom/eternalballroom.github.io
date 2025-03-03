@@ -33,6 +33,10 @@ export default function Work() {
             thumbnail: "/images/pixels/pixel5.png",
         },
         {
+            original: "/images/pixels/pixel11.png",
+            thumbnail: "/images/pixels/pixel11.png",
+        },
+        {
             original: "/images/pixels/pixel7.png",
             thumbnail: "/images/pixels/pixel7.png",
         },
@@ -56,13 +60,14 @@ export default function Work() {
             thumbnail: "/images/pixels/pixel6.png",
         },
         {
-            original: "/images/pixels/pixel8.png",
-            thumbnail: "/images/pixels/pixel8.png",
-        },
-        {
             original: "/images/pixels/pixel10.png",
             thumbnail: "/images/pixels/pixel10.png",
         },
+        {
+            original: "/images/pixels/pixel8.png",
+            thumbnail: "/images/pixels/pixel8.png",
+        },
+
     ]
 
     const images3 = [

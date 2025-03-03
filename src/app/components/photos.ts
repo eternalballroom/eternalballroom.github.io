@@ -112,8 +112,13 @@ const sunset3 = [
       
     }) as Photo,
 );
-
+ 
 const illustration1 = [
+  {
+    asset: "/images/illustration/deark.png",
+    width: 3840,
+    height: 5101,
+  },
   {
     asset: "/images/illustration/lb1.png",
     width: 1920,

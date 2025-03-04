@@ -144,7 +144,7 @@ export default function Work() {
                     <div className="cover-image-wrap">
                       <div className="cover-image">
                         <div className="cover cover-normal">
-                          <Image className="cover__img" src="/images/pixelart.png" height="1500" width="1125" alt=""></Image>
+                          <Image className="cover__img" src="/images/misc.png" height="1500" width="1125" alt=""></Image>
                         </div>
                       </div>
                     </div>

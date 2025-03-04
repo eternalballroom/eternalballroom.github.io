@@ -249,12 +249,22 @@
     margin-bottom: 155px;
     display:flex;
     justify-content: right;
+    pointer-events: none; 
+}
 
+.videowrapLeft {
+    
+    /* z-index: -1; */
+    margin-top: -555px;
+    margin-bottom: 155px;
+    display:flex;
+    justify-content: left;
+    pointer-events: none; 
 }
 
 .videoviewport {
     width:225px;
-
+    
 }
 
 
@@ -421,9 +431,16 @@
         
     
     }
+    .videowrapLeft {
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        
+    
+    }
     
     .videoviewport {
-        width:50%;
+        width:75%;
     
     }
 

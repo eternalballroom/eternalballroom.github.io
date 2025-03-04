@@ -73,6 +73,21 @@ export default function Cooking() {
         },
 
     ]
+    const fd4 = [
+        {
+            original: "/images/cooking/fd41.jpg",
+            thumbnail: "/images/cooking/fd41.jpg",
+        },
+        {
+            original: "/images/cooking/fd42.jpg",
+            thumbnail: "/images/cooking/fd42.jpg",
+        },
+        {
+            original: "/images/cooking/fd43.jpg",
+            thumbnail: "/images/cooking/fd43.jpg",
+        },
+
+    ]
     const Embel2 = () => (
 
         <div className="embelviewport">
@@ -341,11 +356,12 @@ export default function Cooking() {
                                             Gin & tonic snowglobe cocktail with rosemary garnish
                                         </div>
                                     </div>
+                                    
                                 </div>
 
                                 <div className="videowrap">
                                     <div className="videoviewport">
-                                        <MediaPlayer playsInline aspectRatio="9/16" title="Snowglobe" src="/images/cooking/fd33.mp4">
+                                        <MediaPlayer playsInline aspectRatio="9/16" title="Snowglobe" src="/images/cooking/fd3v.mp4">
                                             <MediaProvider>
                                                 <Poster
                                                     className="vds-poster"
@@ -358,6 +374,103 @@ export default function Cooking() {
                                     </div>
                                 </div>
 
+                                <div className="doublecontainer">
+                                    <div className="slideshowviewportrightmob">
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={true} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd2} />
+                                    </div>
+
+                                    <div className="textboxviewport">
+                                        <div className="bigfattitleright">
+                                            fine dining 4
+                                        </div>
+                                        <div className="textboxtitleright">
+                                            For friendschristmas:
+                                        </div>
+                                        <div className="textboxwrapright">
+                                            <div className="textboxunderline">
+                                                Appetizer
+                                            </div>
+                                            <div className="textboxright">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <a className="recipe" href="https://iambaker.net/chili-cheese-nachos/" target="_blank">
+                                                [Recipe]
+                                            </a>
+                                        </div>
+                                        <div className="textboxright">
+                                            Loaded chili cheese nachos
+                                        </div>
+                                        <div className="embelviewportright">
+                                            <Embel2 />
+                                        </div>
+                                        <div className="textboxwrapright">
+                                            <div className="textboxunderline">
+                                                Entree
+                                            </div>
+                                            <div className="textboxright">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <a className="recipe" href="https://www.youtube.com/watch?v=Cyskqnp1j64" target="_blank">
+                                                [Recipe]
+                                            </a>
+                                        </div>
+                                        <div className="textboxright">
+                                            Beef wellington & mashed potato, served with a red wine demi-glace
+                                        </div>
+                                        <div className="embelviewportright">
+                                            <Embel2 />
+                                        </div>
+                                        <div className="textboxwrapright">
+                                            <div className="textboxunderline">
+                                                Dessert
+                                            </div>
+                                            <div className="textboxright">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <a className="recipe" href="https://preppykitchen.com/mini-apple-pies/" target="_blank">
+                                                [Recipe]
+                                            </a>
+                                        </div>
+                                        <div className="textboxright">
+                                            Mini apple pies w/ vanilla ice cream
+                                        </div>
+                                        <div className="embelviewportright">
+                                            <Embel2 />
+                                        </div>
+                                        <div className="textboxwrapright">
+                                            <div className="textboxunderline">
+                                                Drink
+                                            </div>
+                                            <div className="textboxright">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <div className="recipe" >
+                                                No recipe
+                                            </div>
+                                        </div>
+                                        <div className="textboxright">
+                                            Asahi / eggnog & cinnamon / banana Milkis cocktail
+                                        </div>
+                                    </div>
+                                    <div className="slideshowviewportrightpc">
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={true} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd4} />
+                                    </div>
+                                </div>
+
+                                <div className="videowrapLeft">
+                                    <div className="videoviewport">
+                                        <MediaPlayer playsInline aspectRatio="9/16" title="xmas" src="/images/cooking/fd4v.mov">
+                                            <MediaProvider>
+                                                <Poster
+                                                    className="vds-poster"
+                                                    src=""
+
+                                                />
+                                            </MediaProvider>
+                                            <DefaultVideoLayout icons={defaultLayoutIcons} />
+                                        </MediaPlayer>
+                                    </div>
+                                </div>
 
 
 

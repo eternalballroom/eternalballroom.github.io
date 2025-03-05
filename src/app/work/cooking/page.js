@@ -356,7 +356,7 @@ export default function Cooking() {
                                             Gin & tonic snowglobe cocktail with rosemary garnish
                                         </div>
                                     </div>
-                                    
+
                                 </div>
 
                                 <div className="videowrap">
@@ -376,7 +376,7 @@ export default function Cooking() {
 
                                 <div className="doublecontainer">
                                     <div className="slideshowviewportrightmob">
-                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={true} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd2} />
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={true} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd4} />
                                     </div>
 
                                     <div className="textboxviewport">
@@ -473,6 +473,10 @@ export default function Cooking() {
                                 </div>
 
 
+
+                                <div className="textboxspaceabovebelow">Other assorted cookeries:
+                                </div>
+                                <LightboxW i={4} w={260} />
 
                             </div>
                         </div>

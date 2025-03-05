@@ -174,4 +174,34 @@ const illustration1 = [
 );
 
 
-export default [photos0,sunset1,sunset3,illustration1];
+//cooking
+
+
+const cooking4 = [
+  {
+    asset: "/images/cooking/lb1.webp",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb2.webp",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb3.webp",
+    width: 1080,
+    height: 1920,
+  },
+  
+].map(
+  ({ asset, width, height }) =>
+    ({
+      src: assetLink(asset, width),
+      width,
+      height,
+      
+    }) as Photo,
+);
+
+export default [photos0,sunset1,sunset3,illustration1,cooking4];

@@ -47,7 +47,64 @@ export default function Work() {
 
                         <div className="mainsubwork">
                             <div className="paddingsubwork">
+                                <div className="plumbox">
 
+
+                                    <div className="plumboxpainting">
+                                        <LightboxW i={5} w={260} />
+
+
+                                    </div>
+
+                                    <div className="plumboxtext">
+                                        <div className="plumtitle">
+                                            Her Love, for It Was Like a Plum
+                                        </div>
+
+                                        <div className="plummobilespace">
+                                        <div>Her love, for it was like a plum</div>
+                                        <div>Soft, sun-blushed, honeyed as the air</div>
+                                        <div>So swiftly, did spring come</div>
+                                        <div>Amidst love lain bare</div>
+                                        </div>
+                                        <div className="plummobilespace">
+                                        <div>A foreign flame, with peril fraught --</div>
+                                        <div>Words, like lutes upon her tongue</div>
+                                        <div>Her glance, wherein one’s gentle heart lay caught</div>
+                                        <div>An utterance hence, spoken had it been sung</div>
+                                        </div>
+                                        <div className="plummobilespace">
+                                        <div>As if she were a lone-lit star</div>
+                                        <div>Aflame amidst the void of night</div>
+                                        <div>And where she dwelt, no home was far</div>
+                                        <div>His haven forged beneath her light</div>
+                                        </div>
+                                        <div className="plummobilespace">
+                                        <div>Yet would she kindle romance bright</div>
+                                        <div>Forever sweet and keenly tart,</div>
+                                        <div>Squandered in squalor, in the lost shade</div>
+                                        <div>Her love, for it was like a plum.</div>
+                                        </div>
+
+
+                                        <div className="textboxtoolswrap">
+                                            <div className="textboxtoolsimg">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-hammer" viewBox="0 -3 20 20">
+                                                    <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5 5 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334" />
+                                                </svg>
+                                                <div className="textboxtoolstext">Clip Studio Paint</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+
+                               
                                 <div className="bannerviewport">
                                     <Image className="videoviewport1" src="/images/illustration/lbsunset1.png" height="1080" width="1080" alt=""></Image>
 
@@ -178,7 +235,7 @@ export default function Work() {
                                     </div>
                                 </div>
 
-                                <div className="textboxspaceabovebelow">An assortment of random illustrations I&apos;ve done over the years, ordered roughly from newest to oldest (2016).
+                                <div className="textboxspaceabovebelow">An assortment of random illustrations I&apos;ve done over the years, ordered roughly from newest to oldest (2016)
                                 </div>
                                 <LightboxW i={3} w={260} />
                             </div>

@@ -13,7 +13,7 @@
   padding-left: 7%;
   padding-right: 7%;
   padding-top: 75px;
-  padding-bottom: 50px;
+  padding-bottom: 15px;
   row-gap: 1rem;
   font-family: "futura-pt", sans-serif;;
 
@@ -110,6 +110,15 @@ a.primary {
 
 a.secondary {
   border-color: #323232#1a1a1a;
+  min-width: 180px;
+  max-width: 180px;
+}
+
+a.tert {
+  background: #db8504;
+  color: #FFFFFF;
+  border-color: #9c5f03;
+  gap: 8px;
   min-width: 180px;
   max-width: 180px;
 }

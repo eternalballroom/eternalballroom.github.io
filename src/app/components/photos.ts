@@ -155,14 +155,33 @@ const illustration1 = [
     height: 5193,
   },
   {
+    asset: "/images/illustration/nonafin.png",
+    width: 1637,
+    height: 1801,
+  },
+  {
     asset: "/images/illustration/lb8.png",
     width: 1904,
     height: 1832,
   },
-  
 
-  //
+].map(
+  ({ asset, width, height }) =>
+    ({
+      src: assetLink(asset, width),
+      width,
+      height,
+      
+    }) as Photo,
+);
 
+const plum5 = [
+  {
+    asset: "/images/illustration/plum.png",
+    width: 4996,
+    height: 6164,
+
+  },
 ].map(
   ({ asset, width, height }) =>
     ({
@@ -193,7 +212,12 @@ const cooking4 = [
     width: 1080,
     height: 1920,
   },
-  
+  {
+    asset: "/images/cooking/lb4.jpg",
+    width: 1080,
+    height: 1920,
+  },
+
 ].map(
   ({ asset, width, height }) =>
     ({
@@ -204,4 +228,4 @@ const cooking4 = [
     }) as Photo,
 );
 
-export default [photos0,sunset1,sunset3,illustration1,cooking4];
+export default [photos0,sunset1,sunset3,illustration1,cooking4,plum5];

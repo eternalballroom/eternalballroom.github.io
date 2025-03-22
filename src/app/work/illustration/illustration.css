@@ -145,6 +145,40 @@
   padding-bottom:15px;
 }
 
+.plumbox {
+display:flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 15px;
+}
+.plumboxpainting {
+  width:40%;
+}
+.plumboxtext {
+  padding-top:5px;
+  gap: 5px;
+  text-align: center;
+  font-family: "futura-pt", sans-serif;
+  font-size: 15px;
+  max-width:55%;
+  margin-left: 50px;
+  margin-right: 50px;
+  white-space: pre-line;
+  
+}
+.plumtitle {
+  text-align: center;
+  font-family: "chopin";
+  font-size: 40px;
+  margin-bottom: 5px;
+  
+  /* font-weight: bold; */
+}
+.plummobilespace {
+  margin-bottom: 12px;
+
+}
+
 
 @media (max-width: 932px) {
   .pagesubwork {
@@ -229,5 +263,37 @@
   font-family: "futura-pt", sans-serif;
   font-size: 16px;
 } */
+
+
+.plumbox {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+}
+.plumboxpainting {
+  width:100%;
+}
+.plumboxtext {
+ 
+  font-size: 15px;
+  max-width:100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 0px;
+}
+.plumtitle {
+  margin-top: 15px;
+  
+  text-align: center;
+  font-family: "chopin";
+  font-size: 35px;
+  
+  /* font-weight: bold; */
+}
+.plummobilespace {
+  
+}
+
+
 }
 

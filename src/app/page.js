@@ -96,7 +96,16 @@ export default function Home() {
               >
                 Work
               </a>
+              {/* <a
+                href="/work"
+                rel="noopener noreferrer"
+                className={styles.tert}
+              >
+                Work
+              </a> */}
             </div>
+
+            
 
           </div>
         </main>

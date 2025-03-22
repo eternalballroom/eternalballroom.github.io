@@ -46,7 +46,7 @@ const london  = localFont({
 
 export const metadata = {
   title: "The Eternal Ballroom",
-  description: "caretaker's Portfolio",
+  description: "caretaker's portfolio",
 }; 
 
 export default function RootLayout({ children }) {

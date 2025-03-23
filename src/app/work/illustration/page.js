@@ -70,7 +70,7 @@ export default function Work() {
                                         <div className="plummobilespace">
                                         <div>A foreign flame, with peril fraught --</div>
                                         <div>Words, like lutes upon her tongue</div>
-                                        <div>Her glance, wherein one’s gentle heart lay caught</div>
+                                        <div>Her glance, wherein one&apos;s gentle heart lay caught</div>
                                         <div>An utterance hence, spoken had it been sung</div>
                                         </div>
                                         <div className="plummobilespace">

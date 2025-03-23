@@ -86,7 +86,7 @@ export default function Work() {
                                     <div className="textboxtoolswrap">
                                         <div className="textboxsmall">
                                             <div>
-                                                3D rendition of White Space from Omori. This was my first blender project - I'd intended on segueing into making natural landscapes, but never got around to it
+                                                3D rendition of White Space from Omori. This was my first blender project - I&apos;d intended on segueing into making natural landscapes, but never got around to it
                                             </div>
 
                                             <div className="">
@@ -136,7 +136,7 @@ export default function Work() {
                                     <div className="textboxtoolswrap">
                                         <div className="textboxsmall">
                                             <div>
-                                                This site! I custom made it using NextJS/React. I had a friend help me with the setup and basics. The Github is <a className="customlink" href="https://github.com/eternalballroom/eternalballroom.github.io" target="_blank">here</a>, if you'd like to explore for secrets
+                                                This site! I custom made it using NextJS/React. I had a friend help me with the setup and basics. The Github is <a className="customlink" href="https://github.com/eternalballroom/eternalballroom.github.io" target="_blank">here</a>, if you&apos;d like to explore for secrets
                                             </div>
 
                                             <div className="">
@@ -159,7 +159,7 @@ export default function Work() {
                                     <div className="textboxtoolswrap">
                                         <div className="textboxsmall">
                                             <div>
-                                                Basil's dreamworld shoe house from Omori
+                                                Basil&apos;s dreamworld shoe house from Omori
                                             </div>
 
                                             <div className="">

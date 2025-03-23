@@ -68,20 +68,20 @@ export default function Work() {
                                         <div>Amidst love lain bare</div>
                                         </div>
                                         <div className="plummobilespace">
-                                        <div>A foreign flame, with peril fraught --</div>
-                                        <div>Words, like lutes upon her tongue</div>
-                                        <div>Her glance, wherein one&apos;s gentle heart lay caught</div>
-                                        <div>An utterance hence, spoken had it been sung</div>
+                                        <div>A foreign flame, with care begot --</div>
+                                        <div>With lutes upon her tongue she spoke</div>
+                                        <div>Wherein one&apos;s gentle heart lay caught</div>
+                                        <div>An utterance, sung with bespoke</div>
                                         </div>
                                         <div className="plummobilespace">
                                         <div>As if she were a lone-lit star</div>
                                         <div>Aflame amidst the void of night</div>
                                         <div>And where she dwelt, no home was far</div>
-                                        <div>His haven forged beneath her light</div>
+                                        <div>One haven forged beneath her light</div>
                                         </div>
                                         <div className="plummobilespace">
                                         <div>Yet would she kindle romance bright</div>
-                                        <div>Forever sweet and keenly tart,</div>
+                                        <div>Forever sweet and keenly tart</div>
                                         <div>Squandered in squalor, in the lost shade</div>
                                         <div>Her love, for it was like a plum.</div>
                                         </div>

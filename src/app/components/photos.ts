@@ -134,15 +134,22 @@ const illustration1 = [
     width: 1500,
     height: 2164,
   },
+  
   {
     asset: "/images/illustration/lb4.png",
     width: 2200,
     height: 1700,
   },
+  
   {
     asset: "/images/illustration/lb5.png",
     width: 6600,
     height: 5100,
+  },
+  {
+    asset: "/images/illustration/summer.png",
+    width: 1812,
+    height: 885,
   },
   {
     asset: "/images/illustration/lb6.png",
@@ -228,4 +235,40 @@ const cooking4 = [
     }) as Photo,
 );
 
-export default [photos0,sunset1,sunset3,illustration1,cooking4,plum5];
+//misc
+const le6 = [
+  {
+    asset: "/images/misc/le.png",
+    width: 948,
+    height: 577,
+
+  },
+].map(
+  ({ asset, width, height }) =>
+    ({
+      src: assetLink(asset, width),
+      width,
+      height,
+      
+    }) as Photo,
+);
+const site7 = [
+  {
+    asset: "/images/misc/website.png",
+    width: 1691,
+    height: 911,
+
+  },
+].map(
+  ({ asset, width, height }) =>
+    ({
+      src: assetLink(asset, width),
+      width,
+      height,
+      
+    }) as Photo,
+);
+
+
+
+export default [photos0,sunset1,sunset3,illustration1,cooking4,plum5,le6,site7];

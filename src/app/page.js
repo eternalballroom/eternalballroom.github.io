@@ -75,7 +75,7 @@ export default function Home() {
               </div>
               <br />
               <div className={styles.textbox}>
-                Currently under construction as of <code>3/23/25</code>
+                Currently under construction as of <code>3/29/25</code>
               </div>
             </div>
 

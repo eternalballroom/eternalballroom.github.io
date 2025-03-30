@@ -70,9 +70,9 @@ export default function Work() {
                         <div className="mainsubwork">
                             <div className="paddingsubwork">
 
-
+                                {/* ----------------------------------------------------------------- */}
                                 <div className="left">
-                                    <div className="videoviewport">
+                                    <div className="videoviewportstable">
                                         <MediaPlayer playsInline title="White Space - Omori" src="/images/misc/whitespace.mp4">
                                             <MediaProvider>
                                                 <Poster
@@ -100,8 +100,14 @@ export default function Work() {
                                         </div>
                                     </div>
                                 </div>
+                                {/* ----------------------------------------------------------------- */}
 
                                 <div className="left">
+
+                                    <div className="videoviewportleft">
+                                        <iframe className="spotify" src="https://docs.google.com/document/d/e/2PACX-1vQDHDFPSru9lxNkBTwSpibgqITnajKfJ_rZxsFdgYqxZxUi1J-fas3EW9UiN7qW01t10VJAWGyJErSY/pub?embedded=true"></iframe>
+                                    </div>
+
 
                                     <div className="textboxtoolswrap">
                                         <div className="textboxsmall">
@@ -120,18 +126,20 @@ export default function Work() {
                                         </div>
                                     </div>
 
-                                    <div className="videoviewport">
+
+                                    <div className="videoviewportright">
                                         <iframe className="spotify" src="https://docs.google.com/document/d/e/2PACX-1vQDHDFPSru9lxNkBTwSpibgqITnajKfJ_rZxsFdgYqxZxUi1J-fas3EW9UiN7qW01t10VJAWGyJErSY/pub?embedded=true"></iframe>
                                     </div>
+
                                 </div>
 
-
+                                {/* ----------------------------------------------------------------- */}
 
 
 
                                 <div className="left">
-                                    <div className="videoviewport">
-                                    <LightboxW i={7} w={260} />
+                                    <div className="videoviewportstable">
+                                        <LightboxW i={7} w={260} />
                                     </div>
                                     <div className="textboxtoolswrap">
                                         <div className="textboxsmall">
@@ -152,10 +160,12 @@ export default function Work() {
                                 </div>
 
 
+                                {/* ----------------------------------------------------------------- */}
 
-                                
                                 <div className="left">
-
+                                    <div className="videoviewportleft">
+                                        <ImageGallery showNav={false} showBullets={true} showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images1} />
+                                    </div>
                                     <div className="textboxtoolswrap">
                                         <div className="textboxsmall">
                                             <div>
@@ -173,14 +183,14 @@ export default function Work() {
                                         </div>
                                     </div>
 
-                                    <div className="videoviewport">
+                                    <div className="videoviewportright">
                                         <ImageGallery showNav={false} showBullets={true} showFullscreenButton={false} autoPlay={true} slideInterval={4500} slideDuration={700} items={images1} />
                                     </div>
                                 </div>
-
+                                {/* ----------------------------------------------------------------- */}
 
                                 <div className="left">
-                                    <div className="videoviewport">
+                                    <div className="videoviewportstable">
                                         <center><iframe className="spotify" src="https://open.spotify.com/embed/playlist/76sntswrh9XztMaAMYOHVB?utm_source=generator&theme=0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" width="100%" height="352" loading="lazy"></iframe></center>
                                     </div>
                                     <div className="textboxtoolswrap">
@@ -200,13 +210,13 @@ export default function Work() {
                                         </div>
                                     </div>
                                 </div>
-
+                                {/* ----------------------------------------------------------------- */}
 
 
                                 <div className="left">
-                                    <div className="videoviewport">
-                                        <LightboxW i={6} w={260} />
-                                    </div>
+                                    
+                                <Image className="videoviewportleft" src="/images/misc/le.png" height="1080" width="1080" alt=""></Image>
+
                                     <div className="textboxtoolswrap">
                                         <div className="textboxsmall">
                                             <div>
@@ -223,10 +233,13 @@ export default function Work() {
                                             </div>
                                         </div>
                                     </div>
+                                    <div className="videoviewportright">
+                                        <LightboxW i={6} w={260} />
+                                    </div>
                                 </div>
 
 
-
+                                {/* ----------------------------------------------------------------- */}
 
 
 

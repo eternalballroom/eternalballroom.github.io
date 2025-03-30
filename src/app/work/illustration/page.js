@@ -106,7 +106,7 @@ export default function Work() {
 
                                
                                 <div className="bannerviewport">
-                                    <Image className="videoviewport1" src="/images/illustration/lbsunset1.png" height="1080" width="1080" alt=""></Image>
+                                    <Image className="videoviewport1" src="/images/illustration/lbsunset1.png" height="577" width="948" alt=""></Image>
 
                                     <div className="videoviewport1">
                                         <MediaPlayer playsInline aspectRatio="1/1" title="Goodbye to a World - Porter Robinson" src="/images/illustration/sunsetvid.mp4">

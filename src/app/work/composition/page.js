@@ -91,7 +91,7 @@ export default function Work() {
                                             <DefaultVideoLayout icons={defaultLayoutIcons} />
                                         </MediaPlayer>
                                         <div className="textboxsmall">                                      
-                                        Journey's End
+                                        Journey&apos;s End
                                         </div>
                                     </div>
                                 </div>

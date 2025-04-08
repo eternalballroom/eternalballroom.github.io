@@ -196,7 +196,7 @@ export default function Work() {
                                     <div className="textboxtoolswrap">
                                         <div className="textboxsmall">
                                             <div>
-                                                One full bank page of liquid emeralds
+                                                My greatest playlist 
                                             </div>
 
                                             <div className="">

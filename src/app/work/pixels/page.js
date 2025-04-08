@@ -172,7 +172,7 @@ export default function Work() {
                                     </div>
                                 </div>
 
-                                <div className="textboxspaceabovebelow">A collection of miscellaneous pixel arts and more NameMCs.
+                                <div className="textboxspaceabovebelow">A collection of miscellaneous pixel arts and more NameMCs
 
                                 </div>
 

@@ -58,7 +58,8 @@ export default function Work() {
 
                                 {/* fantasy is his favorite genre, reggaeton is favorite genre,  and 805s his favorite drink.  */}
                             </div>
-                            <center><iframe className="spotify" src="https://open.spotify.com/embed/track/6I5OUXptquppKljwsBsICx?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></center>
+                            <center><iframe className="spotify" src="https://open.spotify.com/embed/track/0AN91FSgGw0nmOVcpD9q7l?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></center>
+                            {/* <center><iframe className="spotify" src="https://open.spotify.com/embed/track/6I5OUXptquppKljwsBsICx?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></center> */}
                         </div>
                     </main>
                     <Footer />

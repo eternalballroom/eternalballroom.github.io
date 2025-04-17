@@ -47,7 +47,7 @@ export default function Work() {
 
                         <div className="mainsubwork">
                             <div className="paddingsubwork">
-                                <div className="plumbox">
+                                {/* <div className="plumbox">
 
 
                                     <div className="plumboxpainting">
@@ -97,7 +97,7 @@ export default function Work() {
                                         </div>
                                     </div>
 
-                                </div>
+                                </div> */}
 
 
 

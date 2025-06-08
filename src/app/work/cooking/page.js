@@ -476,7 +476,7 @@ export default function Cooking() {
 
                                 <div className="textboxspaceabovebelow">Other assorted cookeries:
                                 </div>
-                                <LightboxW i={4} w={260} />
+                                <LightboxW i={4} w={360} />
 
                             </div>
                         </div>

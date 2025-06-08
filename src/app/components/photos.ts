@@ -12,6 +12,12 @@ function assetLink(asset: string, width: number) {
 
 const photos0 = [
   {
+    asset: "/images/pixels/orange.png",
+    width: 576,
+    height: 576,
+
+  },
+  {
     asset: "/images/pixels/lbhorror.jpg",
     width: 1344,
     height: 756,
@@ -221,6 +227,26 @@ const cooking4 = [
   },
   {
     asset: "/images/cooking/lb4.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb5.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb6.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb7.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb8.jpg",
     width: 1080,
     height: 1920,
   },

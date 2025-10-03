@@ -178,7 +178,7 @@ export default function Work() {
 
 
 
-                                <div className="textboxtoolswrap">
+                                {/* <div className="textboxtoolswrap">
                                     <div className="textboxbottom">
                                         <div>
                                             Snippets of short drafted melodies
@@ -193,7 +193,9 @@ export default function Work() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
+
+
                             </div>
                         </div>
                     </div>

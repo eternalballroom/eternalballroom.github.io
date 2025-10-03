@@ -147,36 +147,35 @@ const illustration1 = [
     height: 1700,
   },
   
-  {
-    asset: "/images/illustration/lb5.png",
-    width: 6600,
-    height: 5100,
-  },
-  {
-    asset: "/images/illustration/summer.png",
-    width: 1812,
-    height: 885,
-  },
-  {
-    asset: "/images/illustration/lb6.png",
-    width: 1365,
-    height: 2385,
-  },
-  {
-    asset: "/images/illustration/lb7.png",
-    width: 2817,
-    height: 5193,
-  },
-  {
-    asset: "/images/illustration/nonafin.png",
-    width: 1637,
-    height: 1801,
-  },
-  {
-    asset: "/images/illustration/lb8.png",
-    width: 1904,
-    height: 1832,
-  },
+  // {
+  //   asset: "/images/illustration/lb5.png",
+  //   width: 6600,
+  //   height: 5100,
+  // },
+  // {
+  //   asset: "/images/illustration/summer.png",
+  //   width: 1812,
+  //   height: 885,
+
+  //   asset: "/images/illustration/lb6.png",
+  //   width: 1365,
+  //   height: 2385,
+  // },
+  // {
+  //   asset: "/images/illustration/lb7.png",
+  //   width: 2817,
+  //   height: 5193,
+  // },
+  // {
+  //   asset: "/images/illustration/nonafin.png",
+  //   width: 1637,
+  //   height: 1801,
+  // },
+  // {
+  //   asset: "/images/illustration/lb8.png",
+  //   width: 1904,
+  //   height: 1832,
+  // },
 
 ].map(
   ({ asset, width, height }) =>

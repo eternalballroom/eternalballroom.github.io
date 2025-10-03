@@ -103,8 +103,8 @@ export default function Work() {
 
 
 
+<LightboxW i={3} w={260} />
 
-                               
                                 <div className="bannerviewport">
                                     <Image className="videoviewport1" src="/images/illustration/lbsunset1.png" height="577" width="948" alt=""></Image>
 
@@ -143,13 +143,14 @@ export default function Work() {
                                     <Image className="videoviewport1" src="/images/illustration/lbpurple3.png" height="1080" width="1080" alt=""></Image>
 
                                 </div>
-                                <div className="textboxtoolswrap">
+
+                                {/* <div className="textboxtoolswrap">
                                     <div className="textboxsmall">
                                         <div>
                                             3240 x 1080px banners done for&nbsp;
                                             <a className="customlink" href="https://www.instagram.com/shirtpillowcase/" target="_blank">Instagram</a>
                                             &nbsp;split-screen posts. Each banner is split between three 1080 x 1080px images, with the center image being animated.
-                                            {/* The original video files were unfortunately lost, leading to these being blurry after being downloaded from Instagram. */}
+                                            The original video files were unfortunately lost, leading to these being blurry after being downloaded from Instagram. 
                                         </div>
 
                                         <div className="textboxtoolswrap">
@@ -161,7 +162,7 @@ export default function Work() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div className="bannerviewportmobile">
 
@@ -218,7 +219,7 @@ export default function Work() {
                                     </div>
 
                                 </div>
-                                <div className="textboxtoolswrap">
+                                {/* <div className="textboxtoolswrap">
                                     <div className="textboxsmall">
                                         <div>
                                             Drawings that I animated for Instagram. The first two are album covers, while the latter two are part of a bigger split-screen.
@@ -236,8 +237,8 @@ export default function Work() {
                                 </div>
 
                                 <div className="textboxspaceabovebelow">An assortment of random illustrations I&apos;ve done over the years, ordered roughly from newest to oldest (2016)
-                                </div>
-                                <LightboxW i={3} w={260} />
+                                </div> */}
+                                
                             </div>
                         </div>
                     </div>

@@ -529,15 +529,23 @@ gap: 2;
 
 .textboxcenter {
   justify-items: center;
+  
 }
 
 @media (max-width: 932px) {
   .textbox {
-      width:90%;
+      width:100%;
       font-size: 15px;
+      padding-left: 10px;
+      padding-right: 10px;
   }
   .textboxbig {
     
   }
+  .textboxcenter {
+    justify-items: center;
+    
+  }
+
 }
 

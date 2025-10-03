@@ -90,7 +90,7 @@ export default function Work() {
                                 </div>
 
 
-                                <div className="textboxtoolswrap">
+                                {/* <div className="textboxtoolswrap">
                                     <div className="textboxsmall">
                                         <div>
                                             Short recordings of various pieces for Instagram, from newest to oldest.
@@ -105,7 +105,7 @@ export default function Work() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
 
 

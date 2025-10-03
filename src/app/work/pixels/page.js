@@ -127,7 +127,7 @@ export default function Work() {
                                 </div>
 
 
-                                <div className="textboxcenter">
+                                {/* <div className="textboxcenter">
                                     <div className="textbox">Commissioned pixel art banners for NameMC profiles. Artwork is split between 26 Minecraft skin heads, rendering a display as shown on this profile:&nbsp;
                                         <a className="customlink" href="https://namemc.com/profile/Chu.5" target="_blank">Chu</a>
                                     </div>
@@ -137,7 +137,7 @@ export default function Work() {
                                         </svg>
                                         <div className="textboxtoolstext">Asperite, Paint Tool SAI</div>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div className="doublepage">
                                     <div className="doublecontainer">
@@ -151,7 +151,7 @@ export default function Work() {
                                         <div className="doubleslideviewport">
                                             <div className="kitchenchaosviewport2">
                                                 <ImageGallery infinite={false} showBullets={true} showPlayButton={false} showThumbnails={false} showFullscreenButton={false} autoPlay={false} slideInterval={3000} slideDuration={700} showNav={true} items={images3} />
-                                                <div className="textboxleft">
+                                                {/* <div className="textboxleft">
                                                     <div className="textboxleft2">Pixel art done for a 48-hour UCSD game jam. The food and some background assets were taken from asset packs, and the knife/picnic basket are references to OMORI. The game, though unfinished, can be played&nbsp;
                                                         <a className="customlink" href="https://argro.itch.io/game-jam-fall-22-ucsd-kitchen-chaos" target="_blank">here</a>.
                                                     </div>
@@ -161,7 +161,7 @@ export default function Work() {
                                                         </svg>
                                                         <div className="textboxtoolstext">Asperite, Paint Tool SAI</div>
                                                     </div>
-                                                </div>
+                                                </div> */}
 
 
                                             </div>
@@ -172,9 +172,9 @@ export default function Work() {
                                     </div>
                                 </div>
 
-                                <div className="textboxspaceabovebelow">A collection of miscellaneous pixel arts and more NameMCs
+                                {/* <div className="textboxspaceabovebelow">A collection of miscellaneous pixel arts and more NameMCs
 
-                                </div>
+                                </div> */}
 
                               
                                     <LightboxW i={0} w={150}/>

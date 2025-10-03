@@ -34,7 +34,8 @@
 .doubleslideviewport {
     overflow: hidden;
     width: auto;
-
+    display:flex;
+    align-items:center;
 
 }
 
@@ -91,6 +92,7 @@
 
 .kitchenchaosviewport2 {
     max-width: 650px;
+    
 }
 
 .kitchenchaosviewport1 {
@@ -126,9 +128,9 @@
 
 @media (max-width: 932px) {
 
-    /* .doubleslideviewport {
-        width: 92.5%
-    } */
+    .doubleslideviewport {
+        display:block;
+    }
     .lightboxmobileviewport {
 
         padding-left: 3.5%;

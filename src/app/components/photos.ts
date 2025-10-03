@@ -250,6 +250,51 @@ const cooking4 = [
     width: 1080,
     height: 1920,
   },
+  {
+    asset: "/images/cooking/lb9.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb10.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb11.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb12.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  // {
+  //   asset: "/images/cooking/lb13.jpg", fine dining 5
+  //   width: 1080,
+  //   height: 1920,
+  // },
+  {
+    asset: "/images/cooking/lb14.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  // {
+  //   asset: "/images/cooking/lb15.jpg", FD5
+  //   width: 1080,
+  //   height: 1920,
+  // },
+  {
+    asset: "/images/cooking/lb16.jpg",
+    width: 1512,
+    height: 2016,
+  },
+  {
+    asset: "/images/cooking/lb17.jpg",
+    width: 1080,
+    height: 1920,
+  },
 
 ].map(
   ({ asset, width, height }) =>

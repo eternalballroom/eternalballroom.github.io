@@ -88,6 +88,17 @@ export default function Cooking() {
         },
 
     ]
+    const fd5 = [
+        {
+            original: "/images/cooking/fd51.jpg",
+            thumbnail: "/images/cooking/fd51.jpg",
+        },
+        {
+            original: "/images/cooking/fd52.jpg",
+            thumbnail: "/images/cooking/fd52.jpg",
+        },
+    ]
+
     const Embel2 = () => (
 
         <div className="embelviewport">
@@ -471,6 +482,89 @@ export default function Cooking() {
                                         </MediaPlayer>
                                     </div>
                                 </div>
+
+
+                                <div className="doublecontainer">
+                                    <div className="slideshowviewport">
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={true} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd5} />
+                                    </div>
+                                    <div className="textboxviewport">
+                                        <div className="bigfattitle">
+                                            fine dining 5
+                                        </div>
+
+                                        <div className="textboxtitle">
+                                            Father's day:
+                                        </div>
+
+
+
+                                        <div className="textboxwrap">
+                                            <div className="textboxunderline">
+                                                Appetizer
+                                            </div>
+                                            <div className="textbox">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <a className="recipe" href="https://www.instagram.com/p/DFlDvYQM8G_/" target="_blank">
+                                                [Recipe]
+                                            </a>
+                                        </div>
+                                        <div className="textbox">
+                                            Loaded potato soup & bread
+                                        </div>
+                                        <Embel2 />
+                                        <div className="textboxwrap">
+                                            <div className="textboxunderline">
+                                                Entree
+                                            </div>
+                                            <div className="textbox">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <a className="recipe" href="https://www.instagram.com/p/DH6JdLfuisW/" target="_blank">
+                                                [Recipe]
+                                            </a>
+                                        </div>
+                                        <div className="textbox">
+                                            New York style strip steak w/ cowboy butter
+                                        </div>
+
+                                        <Embel2 />
+                                        <div className="textboxwrap">
+                                            <div className="textboxunderline">
+                                                Dessert
+                                            </div>
+                                            <div className="textbox">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <a className="recipe" href="https://www.instagram.com/p/DJiKvv1ykeG/" target="_blank">
+                                                [Recipe]
+                                            </a>
+                                        </div>
+                                        <div className="textbox">
+                                            Lemon posset
+                                        </div>
+
+                                        <Embel2 />
+                                        <div className="textboxwrap">
+                                            <div className="textboxunderline">
+                                                Drink
+                                            </div>
+                                            <div className="textbox">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <div className="recipe" >
+                                                No recipe
+                                            </div>
+                                        </div>
+                                        <div className="textbox">
+                                            Red wine
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
 
 
 

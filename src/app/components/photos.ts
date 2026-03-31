@@ -121,6 +121,11 @@ const sunset3 = [
  
 const illustration1 = [
   {
+    asset: "/images/illustration/bgsun.png",
+    width: 3840,
+    height: 5101,
+  },
+  {
     asset: "/images/illustration/deark.png",
     width: 3840,
     height: 5101,
@@ -291,6 +296,41 @@ const cooking4 = [
   },
   {
     asset: "/images/cooking/lb17.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb18.png",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb19.png",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb20.png",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb21.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb22.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb23.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb24.jpg",
     width: 1080,
     height: 1920,
   },

@@ -96,7 +96,21 @@ export default function Cooking() {
         {
             original: "/images/cooking/fd52.jpg",
             thumbnail: "/images/cooking/fd52.jpg",
+        },    
+    ]
+    const fd6 = [
+        {
+            original: "/images/cooking/fd61.png",
+            thumbnail: "/images/cooking/fd61.png",
         },
+        {
+            original: "/images/cooking/fd62.png",
+            thumbnail: "/images/cooking/fd62.png",
+        },    
+        {
+            original: "/images/cooking/fd63.png",
+            thumbnail: "/images/cooking/fd63.png",
+        }, 
     ]
 
     const Embel2 = () => (
@@ -500,7 +514,7 @@ export default function Cooking() {
 
 
                                         <div className="textboxwrap">
-                                            <div className="textboxunderline">
+                                            <div className="textboxunder fraline">
                                                 Appetizer
                                             </div>
                                             <div className="textbox">
@@ -562,6 +576,91 @@ export default function Cooking() {
                                         </div>
                                     </div>
 
+                                </div>
+
+
+
+                                <div className="doublecontainer">
+                                    <div className="slideshowviewportrightmob">
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={true} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd6} />
+                                    </div>
+
+                                    <div className="textboxviewport">
+                                        <div className="bigfattitleright">
+                                            fine dining 6
+                                        </div>
+                                        <div className="textboxtitleright">
+                                            Friendsgiving:
+                                        </div>
+                                        <div className="textboxwrapright">
+                                            <div className="textboxunderline">
+                                                Appetizer
+                                            </div>
+                                            <div className="textboxright">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <a className="recipe" href="https://iambaker.net/chili-cheese-nachos/" target="_blank">
+                                                [Recipe]
+                                            </a>
+                                        </div>
+                                        <div className="textboxright">
+                                            Pizza bread
+                                        </div>
+                                        <div className="embelviewportright">
+                                            <Embel2 />
+                                        </div>
+                                        <div className="textboxwrapright">
+                                            <div className="textboxunderline">
+                                                Entree
+                                            </div>
+                                            <div className="textboxright">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <div className="recipe" >
+                                                No recipe
+                                            </div>
+                                        </div>
+                                        <div className="textboxright">
+                                            Spicy wagyu crispy rice
+                                        </div>
+                                        <div className="embelviewportright">
+                                            <Embel2 />
+                                        </div>
+                                        <div className="textboxwrapright">
+                                            <div className="textboxunderline">
+                                                Dessert
+                                            </div>
+                                            <div className="textboxright">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <a className="recipe" href="https://preppykitchen.com/mini-apple-pies/" target="_blank">
+                                                [Recipe]
+                                            </a>
+                                        </div>
+                                        <div className="textboxright">
+                                            Hot chocolate
+                                        </div>
+                                        <div className="embelviewportright">
+                                            <Embel2 />
+                                        </div>
+                                        <div className="textboxwrapright">
+                                            <div className="textboxunderline">
+                                                Drink
+                                            </div>
+                                            <div className="textboxright">
+                                                &nbsp;-&nbsp;
+                                            </div>
+                                            <div className="recipe" >
+                                                No recipe
+                                            </div>
+                                        </div>
+                                        <div className="textboxright">
+                                            Sangria
+                                        </div>
+                                    </div>
+                                    <div className="slideshowviewportrightpc">
+                                        <ImageGallery showThumbnails={true} showBullets={true} showNav={false} showPlayButton={false} showFullscreenButton={true} autoPlay={false} slideInterval={4500} slideDuration={700} items={fd6} />
+                                    </div>
                                 </div>
 
 

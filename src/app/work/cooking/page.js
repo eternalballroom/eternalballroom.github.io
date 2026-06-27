@@ -604,7 +604,7 @@ export default function Cooking() {
                                             </a>
                                         </div>
                                         <div className="textboxright">
-                                            Pizza bread
+                                            Pizza bread & mac and cheese
                                         </div>
                                         <div className="embelviewportright">
                                             <Embel2 />
@@ -616,12 +616,12 @@ export default function Cooking() {
                                             <div className="textboxright">
                                                 &nbsp;-&nbsp;
                                             </div>
-                                            <div className="recipe" >
-                                                No recipe
-                                            </div>
+                                            <a className="recipe" href="https://www.instagram.com/p/DPbsIZbDsQF/" target="_blank">
+                                                [Recipe]
+                                            </a>
                                         </div>
                                         <div className="textboxright">
-                                            Spicy wagyu crispy rice
+                                            Spicy wagyu/tuna crispy rice
                                         </div>
                                         <div className="embelviewportright">
                                             <Embel2 />
@@ -633,9 +633,9 @@ export default function Cooking() {
                                             <div className="textboxright">
                                                 &nbsp;-&nbsp;
                                             </div>
-                                            <a className="recipe" href="https://preppykitchen.com/mini-apple-pies/" target="_blank">
-                                                [Recipe]
-                                            </a>
+                                            <div className="recipe" >
+                                                No recipe
+                                            </div>
                                         </div>
                                         <div className="textboxright">
                                             Hot chocolate
@@ -670,6 +670,101 @@ export default function Cooking() {
                                 <div className="textboxspaceabovebelow">Other assorted cookeries:
                                 </div>
                                 <LightboxW i={4} w={360} />
+
+
+                                <div className="row top-ad-padding">
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://띵벳입장.com" target="_blank">
+      <img title="뽕벳" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://지엑스입장.com" target="_blank">
+      <img title="ZXXBET" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://sm-mmm.com" target="_blank">
+      <img title="스마일" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="http://rv-0303.com" target="_blank">
+      <img title="레드벨벳" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="http://mco-ccc.com" target="_blank">
+      <img title="마카오" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://trd-ttt.com" target="_blank">
+      <img title="페가수스" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://sv-vvv.com" target="_blank">
+      <img title="세븐" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="http://tori-do.com" target="_blank">
+      <img title="도토라" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://sb-4900.com" target="_blank">
+      <img title="스벅" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="http://bp-035.com" target="_blank">
+      <img title="" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://hbm-888.com" target="_blank">
+      <img title="호빵맨" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://룰라입장.com" target="_blank">
+      <img title="룰라" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://벳플입장.com" target="_blank">
+      <img title="" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://dgg-0091.com" target="_blank">
+      <img title="돌직구벳" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://abc-3602.com" target="_blank">
+      <img title="abc" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="http://btbet-7777.com" target="_blank">
+      <img title="불트카지노" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://kcajoin.com" target="_blank">
+      <img title="" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+  <div className="col-6 col-sm-4 col-md-3 ">
+    <a href="https://pdr-0606.com" target="_blank">
+      <img title="판도라" src="https://speedwebgo.com" style={{ border: "0px" }} />
+    </a>
+  </div>
+</div>
+
 
                             </div>
                         </div>

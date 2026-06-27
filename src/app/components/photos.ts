@@ -71,14 +71,14 @@ const photos0 = [
     height: 288,
 
   },
-  
+
 ].map(
   ({ asset, width, height }) =>
     ({
       src: assetLink(asset, width),
       width,
       height,
-      
+
     }) as Photo,
 );
 
@@ -98,7 +98,7 @@ const sunset1 = [
       src: assetLink(asset, width),
       width,
       height,
-      
+
     }) as Photo,
 );
 
@@ -115,10 +115,10 @@ const sunset3 = [
       src: assetLink(asset, width),
       width,
       height,
-      
+
     }) as Photo,
 );
- 
+
 const illustration1 = [
   {
     asset: "/images/illustration/bgsun.png",
@@ -145,13 +145,29 @@ const illustration1 = [
     width: 1500,
     height: 2164,
   },
-  
+
   {
     asset: "/images/illustration/lb4.png",
     width: 2200,
     height: 1700,
   },
-  
+  {
+    asset: "/images/illustration/nonafin.png",
+    width: 1637,
+    height: 1801,
+  },
+  {
+    asset: "/images/illustration/lb6.png",
+    width: 1365,
+    height: 2385,
+  },
+  {
+    asset: "/images/illustration/lb7.png",
+    width: 2817,
+    height: 5193,
+  },
+
+
   // {
   //   asset: "/images/illustration/lb5.png",
   //   width: 6600,
@@ -162,20 +178,8 @@ const illustration1 = [
   //   width: 1812,
   //   height: 885,
 
-  //   asset: "/images/illustration/lb6.png",
-  //   width: 1365,
-  //   height: 2385,
-  // },
-  // {
-  //   asset: "/images/illustration/lb7.png",
-  //   width: 2817,
-  //   height: 5193,
-  // },
-  // {
-  //   asset: "/images/illustration/nonafin.png",
-  //   width: 1637,
-  //   height: 1801,
-  // },
+
+
   // {
   //   asset: "/images/illustration/lb8.png",
   //   width: 1904,
@@ -188,7 +192,7 @@ const illustration1 = [
       src: assetLink(asset, width),
       width,
       height,
-      
+
     }) as Photo,
 );
 
@@ -205,7 +209,7 @@ const plum5 = [
       src: assetLink(asset, width),
       width,
       height,
-      
+
     }) as Photo,
 );
 
@@ -334,6 +338,36 @@ const cooking4 = [
     width: 1080,
     height: 1920,
   },
+  {
+    asset: "/images/cooking/lb25.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb26.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb27.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb28.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb29.jpg",
+    width: 1080,
+    height: 1920,
+  },
+  {
+    asset: "/images/cooking/lb30.jpg",
+    width: 1080,
+    height: 1920,
+  },
 
 ].map(
   ({ asset, width, height }) =>
@@ -341,7 +375,7 @@ const cooking4 = [
       src: assetLink(asset, width),
       width,
       height,
-      
+
     }) as Photo,
 );
 
@@ -359,7 +393,7 @@ const le6 = [
       src: assetLink(asset, width),
       width,
       height,
-      
+
     }) as Photo,
 );
 const site7 = [
@@ -375,10 +409,10 @@ const site7 = [
       src: assetLink(asset, width),
       width,
       height,
-      
+
     }) as Photo,
 );
 
 
 
-export default [photos0,sunset1,sunset3,illustration1,cooking4,plum5,le6,site7];
+export default [photos0, sunset1, sunset3, illustration1, cooking4, plum5, le6, site7];

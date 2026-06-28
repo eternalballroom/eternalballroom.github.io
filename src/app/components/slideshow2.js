@@ -15,7 +15,7 @@ export default function Slideshow({ images = [] }) {
       align: "center",
       containScroll: false,
     },
-    [Autoplay({ stopOnInteraction: false, delay: 5555 })]
+    [Autoplay({ stopOnInteraction: false, delay: 5000 })]
   );
 
   const onSelect = useCallback(() => {

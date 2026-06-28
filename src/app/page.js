@@ -42,6 +42,19 @@ export default function Home() {
       description: "Clip Studio Paint, Photoshop"
     },
     {
+      path: "/images/main/main11.gif",
+      url: "/work/performance",
+      title: "At Our Parting",
+      description: "Piano, Cello"
+    },
+    
+    {
+      path: "/images/main/main10.gif",
+      url: "/work/cooking",
+      title: "Beef Wellington",
+      description: "Tenderloin steak wrapped in mushroom duxelles, prosciutto, and puff pastry"
+    },
+    {
       path: "/images/main/main2.gif",
       url: "/work/illustration",
       title: "Goodbye to a World",
@@ -56,7 +69,7 @@ export default function Home() {
     {
       path: "/images/main/main4.png",
       url: "/work/cooking",
-      title: "Salmon Sushi Pumpkins",
+      title: "Salmon Sashimi Pumpkins",
       description: "Sushi rice wrapped in raw salmon, with a green pepper stem"
     },
     {
@@ -71,6 +84,7 @@ export default function Home() {
       title: "Nayu",
       description: "Paint Tool SAI"
     },
+    
     {
       path: "/images/main/main7.png",
       url: "/work/pixels",
@@ -78,11 +92,24 @@ export default function Home() {
       description: "Paint Tool SAI"
     },
     {
+      path: "/images/main/main12.gif",
+      url: "/work/composition",
+      title: "pretty planetarium",
+      description: "Beepbox"
+    },
+    {
       path: "/images/main/main8.png",
       url: "/work/cooking",
       title: "Ricotta Sourdough Bruschetta",
       description: "Toasted sourdough topped with ricotta, diced tomato bruschetta, fresh basil, and balsamic glaze"
-    }
+    },
+    {
+      path: "/images/main/main9.gif",
+      url: "/work/illustration",
+      title: "OMORI",
+      description: "Paint Tool SAI, Premiere Pro"
+    },
+    
   ]
 
   return (

@@ -33,7 +33,7 @@
   min-width: 0;
   padding-left: var(--slide-spacing);
 
-  opacity: 0.3;
+  opacity: 0.35;
   filter: saturate(1);
   transition: opacity 250ms ease, filter 250ms ease;
 }

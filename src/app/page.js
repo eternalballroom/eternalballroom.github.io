@@ -37,49 +37,49 @@ export default function Home() {
   const imagesMain3 = [
     {
       path: "/images/main/main1.png",
-      url: "/two",
+      url: "/work/illustration",
       title: "Her Love, for It Was Like a Plum",
       description: "Clip Studio Paint, Photoshop"
     },
     {
       path: "/images/main/main2.gif",
-      url: "/two",
+      url: "/work/illustration",
       title: "Goodbye to a World",
       description: "Paint Tool SAI, After Effects"
     },
     {
       path: "/images/main/main3.png",
-      url: "/break",
+      url: "/work/pixels",
       title: "D.Va",
       description: "Paint Tool SAI"
     },
     {
       path: "/images/main/main4.png",
-      url: "/two",
+      url: "/work/cooking",
       title: "Salmon Sushi Pumpkins",
       description: "Sushi rice wrapped in raw salmon, with a green pepper stem"
     },
     {
       path: "/images/main/main5.png",
-      url: "/two",
+      url: "/work/illustration",
       title: "BGIII",
       description: "Clip Studio Paint"
     },
     {
       path: "/images/main/main6.png",
-      url: "/two",
+      url: "/work/pixels",
       title: "Nayu",
       description: "Paint Tool SAI"
     },
     {
       path: "/images/main/main7.png",
-      url: "/two",
+      url: "/work/pixels",
       title: "Chu",
       description: "Paint Tool SAI"
     },
     {
       path: "/images/main/main8.png",
-      url: "/two",
+      url: "/work/cooking",
       title: "Ricotta Sourdough Bruschetta",
       description: "Toasted sourdough topped with ricotta, diced tomato bruschetta, fresh basil, and balsamic glaze"
     }
@@ -159,7 +159,7 @@ export default function Home() {
                 Work
               </a> */}
             </div>
-
+<br></br>
             <Slideshow2 images={imagesMain3} />
 
           </div>

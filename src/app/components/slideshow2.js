@@ -10,13 +10,19 @@ export default function Slideshow({ images = [] }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    {
-      loop: true,
-      align: "center",
-      containScroll: false,
-    },
-    [Autoplay({ stopOnInteraction: false, delay: 5000 })]
-  );
+  {
+    loop: true,
+    align: "center",
+    dragFree: true,
+    containScroll: false,
+  },
+  [
+    Autoplay({
+      stopOnInteraction: false,
+      delay: 4000,
+    }),
+  ]
+);
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return;

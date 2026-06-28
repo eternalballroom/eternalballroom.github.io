@@ -135,3 +135,10 @@
   pointer-events: none;
 }
 
+.embla__container {
+  display: flex;
+  align-items: center;
+  margin-left: calc(var(--slide-spacing) * -1);
+  touch-action: pan-y pinch-zoom;
+  backface-visibility: hidden;
+}

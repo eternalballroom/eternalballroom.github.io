@@ -8,7 +8,9 @@ import Link from 'next/link';
 //components
 import Footer from "./components/footer";
 import Slideshow from "./components/slideshow";
+import Slideshow2 from "./components/slideshow2";
 import Header from "./components/header";
+import LightboxW from "./components/lightbox";
 //cursor
 import Cursor from "./components/cursor";
 //hamburger
@@ -41,7 +43,9 @@ export default function Home() {
 
 
       <div className={styles.page}>
+        
         <Slideshow images={imagesMain2} />
+        
 
         <main className={styles.main}>
 
@@ -81,7 +85,6 @@ export default function Home() {
             </div>
 
 
-
             <div className={styles.buttons}>
               <a
                 className={styles.secondary}
@@ -110,9 +113,9 @@ export default function Home() {
 
           </div>
         </main>
-        <div className={styles.fixedfooter}>
+        {/* <div className={styles.fixedfooter}> */}
         <Footer />
-        </div>
+        {/* </div> */}
       </div>
     </div>
   );

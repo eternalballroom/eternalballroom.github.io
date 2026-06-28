@@ -1,0 +1,25 @@
+.padding {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.padding1 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.react-photo-album--rows {
+  --react-photo-album--track-gaps: 0 !important; 
+
+}
+
+.react-photo-album--rows {
+row-gap: 0 !important;
+
+}
+
+.react-photo-album--track{
+
+  --react-photo-album--spacing: 0 !important; 
+  --react-photo-album--padding: 0 !important; 
+}

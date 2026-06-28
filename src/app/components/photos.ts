@@ -396,6 +396,7 @@ const le6 = [
 
     }) as Photo,
 );
+
 const site7 = [
   {
     asset: "/images/misc/website.png",
@@ -414,5 +415,226 @@ const site7 = [
 );
 
 
+const ad8 = [
+  {
+    asset: "/images/ad/ad1.jpg",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad2.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad3.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad4.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad5.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad6.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad7.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad8.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad9.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad10.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad11.jpg",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad12.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad13.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad14.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad15.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad16.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad17.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad18.gif",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad19.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad20.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad21.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad22.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad23.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad24.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad25.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad26.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad27.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad28.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad29.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad30.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad31.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad32.webp",
+    width: 400,
+    height: 120,
+  },
+{
+    asset: "/images/ad/ad33.gif",
+    width: 400,
+    height: 120,
+  },
 
-export default [photos0, sunset1, sunset3, illustration1, cooking4, plum5, le6, site7];
+
+].map(
+  ({ asset, width, height }) =>
+    ({
+      src: assetLink(asset, width),
+      width,
+      height,
+
+    }) as Photo,
+);
+
+const ad9 = [
+{
+    asset: "/images/ad/bigad1.gif",
+    width: 615,
+    height: 264,
+  },
+{
+    asset: "/images/ad/bigad2.gif",
+    width: 615,
+    height: 264,
+  },
+
+].map(
+  ({ asset, width, height }) =>
+    ({
+      src: assetLink(asset, width),
+      width,
+      height,
+
+    }) as Photo,
+);
+
+const ad10 = [
+  {
+    asset: "/images/ad/longad1.gif",
+    width: 1370,
+    height: 120,
+  },
+
+  {
+    asset: "/images/ad/longad2.jpg",
+    width: 1370,
+    height: 120,
+  },
+].map(
+  ({ asset, width, height }) =>
+    ({
+      src: assetLink(asset, width),
+      width,
+      height,
+
+    }) as Photo,
+);
+
+export default [photos0, sunset1, sunset3, illustration1, cooking4, plum5, le6, site7, ad8, ad9, ad10];

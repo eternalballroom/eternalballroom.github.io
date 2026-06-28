@@ -1,0 +1,99 @@
+<!-- import React from 'react';
+
+export default function Ad() {
+    return (
+        <div className="adbox2">
+            <div className="adbox">
+                <a href="https://띵벳입장.com" target="_blank">
+                    <img title="뽕벳" src="/images/ad/ad1.jpg" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="https://지엑스입장.com" target="_blank">
+                    <img title="ZXXBET" src="/images/ad/ad2.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="https://sm-mmm.com" target="_blank">
+                    <img title="스마일" src="/images/ad/ad3.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="http://rv-0303.com" target="_blank">
+                    <img title="레드벨벳" src="/images/ad/ad4.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="http://mco-ccc.com" target="_blank">
+                    <img title="마카오" src="/images/ad/ad5.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="https://trd-ttt.com" target="_blank">
+                    <img title="페가수스" src="/images/ad/ad6.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="https://sv-vvv.com" target="_blank">
+                    <img title="세븐" src="/images/ad/ad7.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="http://tori-do.com" target="_blank">
+                    <img title="도토라" src="/images/ad/ad8.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="https://sb-4900.com" target="_blank">
+                    <img title="스벅" src="/images/ad/ad9.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="http://bp-035.com" target="_blank">
+                    <img title="" src="/images/ad/ad10.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="https://hbm-888.com" target="_blank">
+                    <img title="호빵맨" src="/images/ad/ad11.jpg" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="https://룰라입장.com" target="_blank">
+                    <img title="룰라" src="/images/ad/ad12.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="https://벳플입장.com" target="_blank">
+                    <img title="" src="/images/ad/ad13.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="https://dgg-0091.com" target="_blank">
+                    <img title="돌직구벳" src="/images/ad/ad14.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="https://abc-3602.com" target="_blank">
+                    <img title="abc" src="/images/ad/ad15.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="http://btbet-7777.com" target="_blank">
+                    <img title="불트카지노" src="/images/ad/ad16.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="https://kcajoin.com" target="_blank">
+                    <img title="" src="/images/ad/ad17.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+            <div className="adbox">
+                <a href="https://pdr-0606.com" target="_blank">
+                    <img title="판도라" src="/images/ad/ad18.gif" style={{ border: "0px" }} />
+                </a>
+            </div>
+        </div>
+
+    )
+} -->

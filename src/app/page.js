@@ -29,9 +29,60 @@ export default function Home() {
 
   const imagesMain2 = [
     { path: "/images/main_pixelnb.png", url: "/work/pixels" },
-    
+
     { path: "/images/main_pixel.png", url: "/work/pixels" },
     { path: "/images/main_cooking.png", url: "/work/cooking" },
+  ]
+
+  const imagesMain3 = [
+    {
+      path: "/images/main/main1.png",
+      url: "/two",
+      title: "Her Love, for It Was Like a Plum",
+      description: "Clip Studio Paint, Photoshop"
+    },
+    {
+      path: "/images/main/main2.gif",
+      url: "/two",
+      title: "Goodbye to a World",
+      description: "Paint Tool SAI, After Effects"
+    },
+    {
+      path: "/images/main/main3.png",
+      url: "/break",
+      title: "D.Va",
+      description: "Paint Tool SAI"
+    },
+    {
+      path: "/images/main/main4.png",
+      url: "/two",
+      title: "Salmon Sushi Pumpkins",
+      description: "Sushi rice wrapped in raw salmon, with a green pepper stem"
+    },
+    {
+      path: "/images/main/main5.png",
+      url: "/two",
+      title: "BGIII",
+      description: "Clip Studio Paint"
+    },
+    {
+      path: "/images/main/main6.png",
+      url: "/two",
+      title: "Nayu",
+      description: "Paint Tool SAI"
+    },
+    {
+      path: "/images/main/main7.png",
+      url: "/two",
+      title: "Chu",
+      description: "Paint Tool SAI"
+    },
+    {
+      path: "/images/main/main8.png",
+      url: "/two",
+      title: "Ricotta Sourdough Bruschetta",
+      description: "Toasted sourdough topped with ricotta, diced tomato bruschetta, fresh basil, and balsamic glaze"
+    }
   ]
 
   return (
@@ -43,9 +94,9 @@ export default function Home() {
 
 
       <div className={styles.page}>
-        
+
         <Slideshow images={imagesMain2} />
-        
+
 
         <main className={styles.main}>
 
@@ -64,14 +115,14 @@ export default function Home() {
           /></center> */}
 
             <div className={styles.textboxcenter}>
-              
-                <div className={styles.textboxbig}>
-                  Welcome,
-                </div>
-                <div className={styles.textbox}>
-                  to caretaker&apos;s portfolio.
-                </div>
-                <br />
+
+              <div className={styles.textboxbig}>
+                Welcome,
+              </div>
+              <div className={styles.textbox}>
+                to caretaker&apos;s portfolio.
+              </div>
+              <br />
               <div className={styles.textbox}>
                 This site is custom built using NextJS/React and houses all of my creative endeavours.
               </div>
@@ -109,10 +160,12 @@ export default function Home() {
               </a> */}
             </div>
 
-
+            <Slideshow2 images={imagesMain3} />
 
           </div>
+
         </main>
+
         {/* <div className={styles.fixedfooter}> */}
         <Footer />
         {/* </div> */}

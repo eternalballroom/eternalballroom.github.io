@@ -1,44 +1,83 @@
-import useEmblaCarousel from 'embla-carousel-react';
-import Autoplay from 'embla-carousel-autoplay';
-import styles from "../page.module.css";
-import Link from 'next/link';
+"use client";
 
-import React, { useRef } from 'react'
+import { useCallback, useEffect, useState } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
+import Link from "next/link";
+import "./slideshow2.css";
 
-export default function Slideshow2({ images }) {
+export default function Slideshow({ images = [] }) {
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
-  
-    const progressNode = useRef(null)
-    
-    
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    {
+      loop: true,
+      align: "center",
+      containScroll: false,
+    },
+    [Autoplay({ stopOnInteraction: false, delay: 5555 })]
+  );
 
-    return (
+  const onSelect = useCallback(() => {
+    if (!emblaApi) return;
+    setSelectedIndex(emblaApi.selectedScrollSnap());
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    onSelect();
+    emblaApi.on("select", onSelect);
+    emblaApi.on("reInit", onSelect);
+
+    return () => {
+      emblaApi.off("select", onSelect);
+      emblaApi.off("reInit", onSelect);
+    };
+  }, [emblaApi, onSelect]);
+
+  return (
     <div className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {slides.map((index) => (
-            <div className="embla__slide" key={index}>
-              <div className="embla__slide__number">
-                <span>{index + 1}</span>
+          {images.map((img, i) => {
+            const isCurrent = i === selectedIndex;
+
+            const card = (
+              <div className="embla__card">
+                <img
+                  src={img.path}
+                  alt={img.alt ?? ""}
+                  className="embla__slide__img"
+                />
+
+                <div className="embla__shade" />
+
+                <div className="embla__text">
+                  <h5>{img.title}</h5>
+                  <p>{img.description}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+
+            return (
+              <div
+                className="embla__slide"
+                data-current={isCurrent}
+                key={`${img.path}-${i}`}
+              >
+                {img.url ? (
+                  <Link href={img.url} className="embla__slide__link">
+                    {card}
+                  </Link>
+                ) : (
+                  card
+                )}
+              </div>
+            );
+          })}
         </div>
-      </div>
-
-      <div className="embla__controls">
-        
-
-        <div
-          className={`embla__progress`.concat(
-            showAutoplayProgress ? '' : ' embla__progress--hidden'
-          )}
-        >
-          <div className="embla__progress__bar" ref={progressNode} />
-        </div>
-
-        
       </div>
     </div>
-  )
+  );
 }

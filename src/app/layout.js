@@ -42,6 +42,12 @@ const london  = localFont({
   weight: "100 900",
 });
 
+const tnr  = localFont({
+  src: "./fonts/TimesNewRomanB.woff2",
+  variable: "--font-brs",
+  weight: "100 900",
+});
+
 
 
 export const metadata = {

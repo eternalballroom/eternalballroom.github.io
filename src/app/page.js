@@ -84,7 +84,12 @@ export default function Home() {
       title: "Nayu",
       description: "Paint Tool SAI"
     },
-    
+    {
+      path: "/images/main/main13.png",
+      url: "/work/photography",
+      title: "Osaka Castle",
+      description: "."
+    },
     {
       path: "/images/main/main7.png",
       url: "/work/pixels",
